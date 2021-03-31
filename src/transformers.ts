@@ -1,4 +1,4 @@
-import { Declaration } from 'postcss';
+import postcss, { Declaration, list } from 'postcss';
 
 type Transformer = (
     decl: Readonly<Declaration>,
@@ -33,6 +33,55 @@ const replaceInlinePositioning: Transformer = (decl, start, end) => {
     }
 };
 
+const replaceTransition: Transformer = (decl, start, end) => {
+    const rawItems = list.comma(decl.value);
+    // There might be "transition-property" or shorthand "transition"
+    // In any case, property name is always comes first, so each element at [0] will contain a property name
+    const parsedItems = rawItems.map(list.space);
+    const indexesToModify = parsedItems.reduce<number[]>((indexes, [prop], i) => {
+        if (isSupportedProp(prop)) {
+            indexes.push(i);
+        }
+
+        return indexes;
+    }, []);
+
+    if (indexesToModify.length === 0) {
+        return;
+    }
+
+    let hasChangedProps = false;
+    indexesToModify.forEach((i) => {
+        const [prop] = parsedItems[i];
+        const tempDecl = postcss.decl({
+            prop,
+            value: 'initial',
+        });
+        const newDecl = shouldFindTransformer(prop)(tempDecl, start, end);
+        if (newDecl && newDecl.prop !== prop) {
+            hasChangedProps = true;
+            parsedItems[i][0] = newDecl.prop;
+        }
+    });
+
+    if (!hasChangedProps) {
+        return;
+    }
+
+    return decl.clone({
+        value: parsedItems.map((item) => item.join(' ')).join(', '),
+    });
+};
+
+function shouldFindTransformer(prop: string): Transformer {
+    const transformer = transformationMap[prop.toLowerCase()];
+    if (!transformer) {
+        throw new Error(`Unknown declaration property received: "${prop}"`);
+    }
+
+    return transformer;
+}
+
 const transformationMap: Record<string, Transformer> = {
     float: replaceValue,
     clear: replaceValue,
@@ -57,6 +106,8 @@ const transformationMap: Record<string, Transformer> = {
     'margin-inline-end': replaceInlineBox,
     'inset-inline-start': replaceInlinePositioning,
     'inset-inline-end': replaceInlinePositioning,
+    transition: replaceTransition,
+    'transition-property': replaceTransition,
 };
 
 export function isSupportedProp(prop: string): boolean {
@@ -64,13 +115,8 @@ export function isSupportedProp(prop: string): boolean {
 }
 
 export function transformToNonLogical(decl: Readonly<Declaration>, direction: 'ltr' | 'rtl'): Declaration | undefined {
-    const transformer = transformationMap[decl.prop.toLowerCase()];
-    if (!transformer) {
-        throw new Error(`Unknown declaration property received: "${decl.prop}"`);
-    }
-
     const start = direction === 'ltr' ? 'left' : 'right';
     const end = direction === 'ltr' ? 'right' : 'left';
 
-    return transformer(decl, start, end);
+    return shouldFindTransformer(decl.prop)(decl, start, end);
 }

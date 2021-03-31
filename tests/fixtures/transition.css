@@ -1,0 +1,39 @@
+.transitionPropertySingle {
+    position: absolute;
+    inset-inline-end: 0;
+    transition-duration: 0.2s;
+    transition-property: inset-inline-end;
+}
+
+.transitionPropertyMultiple {
+    position: absolute;
+    top: 0;
+    inset-inline-end: 0;
+    transition-duration: 0.2s, 0.3s;
+    transition-property: inset-inline-end, top;
+}
+
+.transitionShorthandSingle {
+    position: absolute;
+    inset-inline-end: 0;
+    transition: inset-inline-end 0.2s ease-in-out;
+}
+
+.transitionShorthandMultiple {
+    position: absolute;
+    top: 0;
+    inset-inline-end: 0;
+    transition: inset-inline-end 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+.transitionOnlySupportedProperties {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+.invalidInput {
+    text-align: start;
+    transition: text-align 0.2s ease-in;
+}
