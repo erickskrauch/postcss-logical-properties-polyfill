@@ -1,0 +1,31 @@
+.start {
+    border-inline-start-style: solid;
+}
+
+html[dir="ltr"] .start {
+    border-left-style: solid;
+}
+
+html[dir="rtl"] .start {
+    border-right-style: solid;
+}
+
+.end {
+    border-inline-end-style: solid;
+}
+
+html[dir="ltr"] .end {
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .end {
+    border-left-style: solid;
+}
+
+.right {
+    border-right-style: solid;
+}
+
+.left {
+    border-left-style: solid;
+}

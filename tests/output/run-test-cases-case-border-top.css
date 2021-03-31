@@ -1,0 +1,31 @@
+.start {
+    border-top-inline-start-radius: 1px;
+}
+
+html[dir="ltr"] .start {
+    border-top-left-radius: 1px;
+}
+
+html[dir="rtl"] .start {
+    border-top-right-radius: 1px;
+}
+
+.end {
+    border-top-inline-end-radius: 1px;
+}
+
+html[dir="ltr"] .end {
+    border-top-right-radius: 1px;
+}
+
+html[dir="rtl"] .end {
+    border-top-left-radius: 1px;
+}
+
+.right {
+    border-top-right-radius: 1px;
+}
+
+.left {
+    border-top-left-radius: 1px;
+}

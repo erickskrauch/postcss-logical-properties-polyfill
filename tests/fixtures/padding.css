@@ -1,0 +1,15 @@
+.start {
+    padding-inline-start: 1px;
+}
+
+.end {
+    padding-inline-end: 1px;
+}
+
+.left {
+    padding-left: 1px;
+}
+
+.right {
+    padding-right: 1px;
+}

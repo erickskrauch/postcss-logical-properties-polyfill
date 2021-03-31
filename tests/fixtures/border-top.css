@@ -1,0 +1,15 @@
+.start {
+    border-top-inline-start-radius: 1px;
+}
+
+.end {
+    border-top-inline-end-radius: 1px;
+}
+
+.right {
+    border-top-right-radius: 1px;
+}
+
+.left {
+    border-top-left-radius: 1px;
+}

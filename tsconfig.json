@@ -1,0 +1,15 @@
+{
+    "include": ["src", "tests"],
+    "compilerOptions": {
+        "target": "ES2019",
+        "lib": ["ES2019", "ES2020.String"],
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "declaration": false,
+        "strict": true,
+        "baseUrl": "src",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist"
+    }
+}

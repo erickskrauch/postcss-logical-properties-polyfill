@@ -1,0 +1,15 @@
+.foo {
+    border-inline-start-color: #fff;
+}
+
+.bar {
+    border-inline-end-color: #fff;
+}
+
+.right {
+    border-right-color: #fff;
+}
+
+.left {
+    border-left-color: #fff;
+}

@@ -1,0 +1,55 @@
+.start {
+    float: start;
+}
+
+html[dir="ltr"] .start {
+    float: left;
+}
+
+html[dir="rtl"] .start {
+    float: right;
+}
+
+.inline-start {
+    float: inline-start;
+}
+
+html[dir="ltr"] .inline-start {
+    float: left;
+}
+
+html[dir="rtl"] .inline-start {
+    float: right;
+}
+
+.end {
+    float: end;
+}
+
+html[dir="ltr"] .end {
+    float: right;
+}
+
+html[dir="rtl"] .end {
+    float: left;
+}
+
+.inline-end {
+    float: inline-end;
+}
+
+html[dir="ltr"] .inline-end {
+    float: right;
+}
+
+html[dir="rtl"] .inline-end {
+    float: left;
+}
+
+.none {
+    float: none;
+}
+
+.inherit {
+    float: inherit;
+}

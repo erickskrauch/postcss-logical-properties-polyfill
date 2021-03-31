@@ -1,0 +1,15 @@
+.start {
+    border-inline-start-width: 1px;
+}
+
+.end {
+    border-inline-end-width: 1px;
+}
+
+.right {
+    border-right-width: 1px;
+}
+
+.left {
+    border-left-width: 1px;
+}

@@ -1,0 +1,15 @@
+.start {
+    border-inline-start-style: solid;
+}
+
+.end {
+    border-inline-end-style: solid;
+}
+
+.right {
+    border-right-style: solid;
+}
+
+.left {
+    border-left-style: solid;
+}

@@ -1,0 +1,23 @@
+.start {
+    clear: start;
+}
+
+.end {
+    clear: end;
+}
+
+.left {
+    clear: left;
+}
+
+.right {
+    clear: right;
+}
+
+.none {
+    clear: none;
+}
+
+.both {
+    clear: both;
+}

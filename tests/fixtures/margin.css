@@ -1,0 +1,15 @@
+.start {
+    margin-inline-start: 1px;
+}
+
+.end {
+    margin-inline-end: 1px;
+}
+
+.left {
+    margin-left: 1px;
+}
+
+.right {
+    margin-right: 1px;
+}

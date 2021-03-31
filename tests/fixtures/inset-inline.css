@@ -1,0 +1,15 @@
+.start {
+    inset-inline-start: 1px;
+}
+
+.end {
+    inset-inline-end: 1px;
+}
+
+.left {
+    left: 1px;
+}
+
+.right {
+    right: 1px;
+}

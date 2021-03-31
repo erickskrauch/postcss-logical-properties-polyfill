@@ -1,0 +1,11 @@
+@media screen and (min-width: 480px) {
+    .foo {
+        inset-inline-start: 1px;
+    }
+
+    @media screen and (min-width: 768px) {
+        .bar {
+            inset-inline-end: 1px;
+        }
+    }
+}

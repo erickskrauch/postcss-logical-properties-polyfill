@@ -1,0 +1,23 @@
+.start {
+    float: start;
+}
+
+.inline-start {
+    float: inline-start;
+}
+
+.end {
+    float: end;
+}
+
+.inline-end {
+    float: inline-end;
+}
+
+.none {
+    float: none;
+}
+
+.inherit {
+    float: inherit;
+}

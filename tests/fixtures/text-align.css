@@ -1,0 +1,23 @@
+.start {
+    text-align: start;
+}
+
+.end {
+    text-align: end;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.initial {
+    text-align: initial;
+}
+
+.inherit {
+    text-align: inherit;
+}

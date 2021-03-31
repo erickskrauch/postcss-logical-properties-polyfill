@@ -1,0 +1,13 @@
+.sources-header {
+    height: 30px;
+    border-bottom: 1px solid var(--theme-splitter-color);
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 30px;
+}
+
+.sources-header {
+    padding-top: 7px;
+    padding-inline-start: 10px;
+    margin-inline-end: 5px;
+}

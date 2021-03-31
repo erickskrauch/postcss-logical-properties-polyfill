@@ -1,0 +1,23 @@
+.start {
+    border-inline-start: 1px;
+}
+
+html[dir="ltr"] .start {
+    border-left: 1px;
+}
+
+html[dir="rtl"] .start {
+    border-right: 1px;
+}
+
+.end {
+    border-inline-end: 1px;
+}
+
+html[dir="ltr"] .end {
+    border-right: 1px;
+}
+
+html[dir="rtl"] .end {
+    border-left: 1px;
+}
