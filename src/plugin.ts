@@ -39,19 +39,24 @@ const plugin: PluginCreator<PluginOptions> = ({ buildSelector = defaultBuildSele
             const rulesToProcess = new Map<Rule, Array<Declaration>>();
 
             root.walkDecls((decl) => {
-                // TODO: ignore rules that already has [dir= in its selector
-                //       https://github.com/gasolin/postcss-bidirection/issues/14
-
                 if (!isSupportedProp(decl.prop)) {
                     return;
                 }
 
-                const rule = decl.parent as Rule;
-                // TODO: ensure, that the parent is a Rule
-                if (rulesToProcess.has(rule)) {
-                    rulesToProcess.get(rule)!.push(decl);
+                const parent = decl.parent as Rule | undefined;
+                if (!parent || parent.type !== 'rule') {
+                    return;
+                }
+
+                // Skip LESS namespaces and mixins, since they must have different behavior
+                if (parent.selector.match(/\((\s*|\s*[@].*)\)/)) {
+                    return;
+                }
+
+                if (rulesToProcess.has(parent)) {
+                    rulesToProcess.get(parent)!.push(decl);
                 } else {
-                    rulesToProcess.set(rule, [decl]);
+                    rulesToProcess.set(parent, [decl]);
                 }
             });
 

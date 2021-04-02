@@ -1,0 +1,12 @@
+/**
+ * This case ensures that the implementation will correctly handle objects
+ * that would be Declaration when parsing ASTs, but which are not part of a Rule
+ */
+
+@import 'another.scss';
+
+$border: black;
+
+.test {
+    border-inline-start-color: $border;
+}

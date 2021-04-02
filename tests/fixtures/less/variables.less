@@ -1,0 +1,29 @@
+/**
+ * This case ensures that the implementation will correctly handle objects
+ * that would be Declaration when parsing ASTs, but which are not part of a Rule
+ */
+
+@import 'another.less';
+
+@border: black;
+
+.test {
+    border-inline-start-color: @border;
+}
+
+// This case isn't implemented yet
+@ruleset: {
+    margin-inline-end: 2px;
+};
+
+@rulesetWithNestedSelector: {
+    .selector {
+        padding-inline-start: 3px;
+    }
+};
+
+@rulesetWithNestedMixin: {
+    .mixin() {
+        padding-inline-end: 5px;
+    }
+};

@@ -83,6 +83,7 @@ function shouldFindTransformer(prop: string): Transformer {
 }
 
 const transformationMap: Record<string, Transformer> = {
+    // TODO: shorthand properties
     float: replaceValue,
     clear: replaceValue,
     'text-align': replaceValue,

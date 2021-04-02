@@ -1,0 +1,44 @@
+/**
+ * This case ensures that the implementation will correctly handle nested rules
+ * and the ampersand will not cause any problems
+ */
+
+.test {
+    .nested {
+        margin-inline-end: 6px;
+    }
+
+
+    html[dir="ltr"] .nested {
+        margin-right: 6px;
+    }
+
+
+    html[dir="rtl"] .nested {
+        margin-left: 6px;
+    }
+
+    &:hover {
+        inset-inline-start: 5px;
+    }
+
+    html[dir="ltr"] &:hover {
+        left: 5px;
+    }
+
+    html[dir="rtl"] &:hover {
+        right: 5px;
+    }
+
+    .parentOf & {
+        border-inline-start-color: #fff;
+    }
+
+    html[dir="ltr"] .parentOf & {
+        border-left-color: #fff;
+    }
+
+    html[dir="rtl"] .parentOf & {
+        border-right-color: #fff;
+    }
+}

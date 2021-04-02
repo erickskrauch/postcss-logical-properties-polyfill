@@ -1,0 +1,18 @@
+/**
+ * This case ensures that the implementation will correctly handle nested rules
+ * and the ampersand will not cause any problems
+ */
+
+.test {
+    .nested {
+        margin-inline-end: 6px;
+    }
+
+    &:hover {
+        inset-inline-start: 5px;
+    }
+
+    .parentOf & {
+        border-inline-start-color: #fff;
+    }
+}
