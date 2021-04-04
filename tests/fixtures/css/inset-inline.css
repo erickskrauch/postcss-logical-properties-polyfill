@@ -6,6 +6,14 @@
     inset-inline-end: 1px;
 }
 
+.shorthandOne {
+    inset-inline: 10px;
+}
+
+.shorthandTwo {
+    inset-inline: 10px 5px;
+}
+
 .left {
     left: 1px;
 }

@@ -6,6 +6,14 @@
     border-inline-end-width: 1px;
 }
 
+.shorthandOne {
+    border-inline-width: 10px;
+}
+
+.shorthandTwo {
+    border-inline-width: 10px 5px;
+}
+
 .right {
     border-right-width: 1px;
 }

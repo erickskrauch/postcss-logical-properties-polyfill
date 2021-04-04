@@ -22,6 +22,34 @@ html[dir="rtl"] .end {
     margin-left: 1px;
 }
 
+.shorthandOne {
+    margin-inline: 10px;
+}
+
+html[dir="ltr"] .shorthandOne {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+html[dir="rtl"] .shorthandOne {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.shorthandTwo {
+    margin-inline: 10px 5px;
+}
+
+html[dir="ltr"] .shorthandTwo {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+html[dir="rtl"] .shorthandTwo {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
 .left {
     margin-left: 1px;
 }

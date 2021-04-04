@@ -1,4 +1,4 @@
-import postcss from 'postcss';
+import postcss, { Declaration } from 'postcss';
 import { transformToNonLogical } from '../src/transformers';
 
 describe('transformToNonLogical', () => {
@@ -11,8 +11,9 @@ describe('transformToNonLogical', () => {
         const transformedDecl = transformToNonLogical(decl, 'rtl');
 
         expect(transformedDecl).toBeDefined();
-        expect(transformedDecl!.prop).toStrictEqual('float');
-        expect(transformedDecl!.value).toStrictEqual('right');
+        expect(transformedDecl).toBeInstanceOf(Declaration);
+        expect((transformedDecl as Declaration).prop).toStrictEqual('float');
+        expect((transformedDecl as Declaration).value).toStrictEqual('right');
 
         // Ensure, that the original declaration doesn't change
         expect(decl.prop).toStrictEqual('float');

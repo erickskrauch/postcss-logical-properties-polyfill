@@ -6,6 +6,14 @@
     padding-inline-end: 1px;
 }
 
+.shorthandOne {
+    padding-inline: 10px;
+}
+
+.shorthandTwo {
+    padding-inline: 10px 5px;
+}
+
 .left {
     padding-left: 1px;
 }

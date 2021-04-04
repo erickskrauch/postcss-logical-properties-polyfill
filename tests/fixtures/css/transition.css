@@ -26,6 +26,13 @@
     transition: inset-inline-end 0.2s ease-in-out, top 0.3s ease-in;
 }
 
+.transitionShorthandComplex {
+    position: absolute;
+    top: 0;
+    inset-inline: 10px 20px;
+    transition: inset-inline 0.2s ease-in-out, top 0.3s ease-in;
+}
+
 .transitionOnlySupportedProperties {
     position: absolute;
     top: 0;

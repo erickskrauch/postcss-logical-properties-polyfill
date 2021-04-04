@@ -5,3 +5,7 @@
 .end {
     border-inline-end: 1px;
 }
+
+.shorthand {
+    border-inline: 10px;
+}

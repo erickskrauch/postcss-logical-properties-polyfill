@@ -1,9 +1,17 @@
-.foo {
+.start {
     border-inline-start-color: #fff;
 }
 
-.bar {
+.end {
     border-inline-end-color: #fff;
+}
+
+.shorthandOne {
+    border-inline-color: #fff;
+}
+
+.shorthandTwo {
+    border-inline-color: #fff #000;
 }
 
 .right {

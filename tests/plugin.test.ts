@@ -35,9 +35,13 @@ async function run(
     const inputData = await loadFile(fixturePath);
     const outputFileNameParts = path.basename(fixturePath).split('.');
     outputFileNameParts.splice(-1, 0, sha256Short);
-    const outputFileName = outputFileNameParts.join('.')
     // +10 because we need to remove 2 slashes and "fixtures" word (8 chars)
-    const outputFilePath = path.join(__dirname, 'output', path.dirname(fixturePath).substr(__dirname.length + 10), outputFileName);
+    const outputFilePath = path.join(
+        __dirname,
+        'output',
+        path.dirname(fixturePath).substr(__dirname.length + 10),
+        outputFileNameParts.join('.'),
+    );
 
     const result = await postcss(plugin(pluginOpts)).process(inputData, { ...postcssOpts, from: undefined });
 

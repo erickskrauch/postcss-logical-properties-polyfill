@@ -1,25 +1,53 @@
-.foo {
+.start {
     border-inline-start-color: #fff;
 }
 
-html[dir="ltr"] .foo {
+html[dir="ltr"] .start {
     border-left-color: #fff;
 }
 
-html[dir="rtl"] .foo {
+html[dir="rtl"] .start {
     border-right-color: #fff;
 }
 
-.bar {
+.end {
     border-inline-end-color: #fff;
 }
 
-html[dir="ltr"] .bar {
+html[dir="ltr"] .end {
     border-right-color: #fff;
 }
 
-html[dir="rtl"] .bar {
+html[dir="rtl"] .end {
     border-left-color: #fff;
+}
+
+.shorthandOne {
+    border-inline-color: #fff;
+}
+
+html[dir="ltr"] .shorthandOne {
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .shorthandOne {
+    border-right-color: #fff;
+    border-left-color: #fff;
+}
+
+.shorthandTwo {
+    border-inline-color: #fff #000;
+}
+
+html[dir="ltr"] .shorthandTwo {
+    border-left-color: #fff;
+    border-right-color: #000;
+}
+
+html[dir="rtl"] .shorthandTwo {
+    border-right-color: #fff;
+    border-left-color: #000;
 }
 
 .right {

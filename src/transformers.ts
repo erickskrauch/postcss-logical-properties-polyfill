@@ -1,12 +1,14 @@
 import postcss, { Declaration, list } from 'postcss';
 
-type Transformer = (
-    decl: Readonly<Declaration>,
-    start: 'left' | 'right',
-    end: 'left' | 'right',
-) => Declaration | undefined;
+interface TransformOptions {
+    direction: 'ltr' | 'rtl';
+    start: 'left' | 'right';
+    end: 'left' | 'right';
+}
 
-const replaceValue: Transformer = (decl, start, end) => {
+type Transformer = (decl: Readonly<Declaration>, options: Readonly<TransformOptions>) => Declaration | Array<Declaration> | undefined;
+
+const replaceValue: Transformer = (decl, { start, end }) => {
     const value = decl.value.toLowerCase();
     if (value === 'start' || value === 'inline-start') {
         return decl.clone({ value: start });
@@ -17,7 +19,7 @@ const replaceValue: Transformer = (decl, start, end) => {
     }
 };
 
-const replaceInlineBox: Transformer = (decl, start, end) => {
+const replaceInlineBox: Transformer = (decl, { start, end }) => {
     if (decl.prop.toLowerCase().includes('start')) {
         return decl.clone({ prop: decl.prop.replace('inline-start', start) });
     } else {
@@ -25,7 +27,30 @@ const replaceInlineBox: Transformer = (decl, start, end) => {
     }
 };
 
-const replaceInlinePositioning: Transformer = (decl, start, end) => {
+const replaceInlineBoxShorthand: Transformer = (decl, { start, end }) => {
+    const parts = list.space(decl.value);
+    if (parts.length === 2) {
+        return [
+            decl.clone({ prop: decl.prop.replace('inline', start), value: parts[0] }),
+            decl.clone({ prop: decl.prop.replace('inline', end), value: parts[1] }),
+        ];
+    } else {
+        return [
+            decl.clone({ prop: decl.prop.replace('inline', start), value: parts[0] }),
+            decl.clone({ prop: decl.prop.replace('inline', end), value: parts[0] }),
+        ];
+    }
+};
+
+// TODO: in the future, this transformer shouldn't generate LTR/RTL rules and should write directly into the rule
+const replaceSimpleRL: Transformer = (decl, { start, end }) => {
+    return [
+        decl.clone({ prop: decl.prop.replace('inline', start) }),
+        decl.clone({ prop: decl.prop.replace('inline', end) }),
+    ];
+};
+
+const replaceInlinePositioning: Transformer = (decl, { start, end }) => {
     if (decl.prop.toLowerCase().includes('start')) {
         return decl.clone({ prop: start });
     } else {
@@ -33,7 +58,32 @@ const replaceInlinePositioning: Transformer = (decl, start, end) => {
     }
 };
 
-const replaceTransition: Transformer = (decl, start, end) => {
+const replaceInlinePositioningShorthand: Transformer = (decl, { start, end }) => {
+    const parts = list.space(decl.value);
+    if (parts.length === 2) {
+        return [
+            decl.clone({ prop: start, value: parts[0] }),
+            decl.clone({ prop: end, value: parts[1] }),
+        ];
+    } else {
+        return [
+            decl.clone({ prop: start, value: parts[0] }),
+            decl.clone({ prop: end, value: parts[0] }),
+        ];
+    }
+};
+
+const replaceBorderRadius: Transformer = (decl, { start, end }) => {
+    return decl.clone({
+        prop: decl.prop
+            .replace('border-start', 'border-top')
+            .replace('border-end', 'border-bottom')
+            .replace('start', start)
+            .replace('end', end)
+        });
+}
+
+const replaceTransition: Transformer = (decl, options) => {
     const rawItems = list.comma(decl.value);
     // There might be "transition-property" or shorthand "transition"
     // In any case, property name is always comes first, so each element at [0] will contain a property name
@@ -51,17 +101,31 @@ const replaceTransition: Transformer = (decl, start, end) => {
     }
 
     let hasChangedProps = false;
+    let countOfNewProps = 0;
     indexesToModify.forEach((i) => {
-        const [prop] = parsedItems[i];
+        const [prop, ...restParams] = parsedItems[i + countOfNewProps];
         const tempDecl = postcss.decl({
             prop,
             value: 'initial',
         });
-        const newDecl = shouldFindTransformer(prop)(tempDecl, start, end);
-        if (newDecl && newDecl.prop !== prop) {
-            hasChangedProps = true;
-            parsedItems[i][0] = newDecl.prop;
+        const newDecls = shouldFindTransformer(prop)(tempDecl, options);
+        if (!newDecls) {
+            return;
         }
+
+        (Array.isArray(newDecls) ? newDecls : [newDecls]).forEach((newDecl, declarationIndex) => {
+            if (newDecl.prop === prop) {
+                return;
+            }
+
+            hasChangedProps = true;
+            if (declarationIndex === 0) {
+                parsedItems[i + countOfNewProps][0] = newDecl.prop;
+            } else {
+                parsedItems.splice(i + countOfNewProps, 0, [newDecl.prop, ...restParams]);
+                countOfNewProps++;
+            }
+        });
     });
 
     if (!hasChangedProps) {
@@ -83,30 +147,44 @@ function shouldFindTransformer(prop: string): Transformer {
 }
 
 const transformationMap: Record<string, Transformer> = {
-    // TODO: shorthand properties
     float: replaceValue,
     clear: replaceValue,
     'text-align': replaceValue,
+
+    'padding-inline': replaceInlineBoxShorthand,
     'padding-inline-start': replaceInlineBox,
     'padding-inline-end': replaceInlineBox,
-    'border-inline-start': replaceInlineBox,
-    'border-inline-end': replaceInlineBox,
-    'border-inline-start-color': replaceInlineBox,
-    'border-inline-end-color': replaceInlineBox,
-    'border-inline-start-style': replaceInlineBox,
-    'border-inline-end-style': replaceInlineBox,
-    'border-inline-start-width': replaceInlineBox,
-    'border-inline-end-width': replaceInlineBox,
-    'border-inline-start-top': replaceInlineBox,
-    'border-inline-end-top': replaceInlineBox,
-    'border-top-inline-start-radius': replaceInlineBox,
-    'border-top-inline-end-radius': replaceInlineBox,
-    'border-bottom-inline-start-radius': replaceInlineBox,
-    'border-bottom-inline-end-radius': replaceInlineBox,
+
+    'margin-inline': replaceInlineBoxShorthand,
     'margin-inline-start': replaceInlineBox,
     'margin-inline-end': replaceInlineBox,
+
+    'border-inline': replaceSimpleRL,
+    'border-inline-start': replaceInlineBox,
+    'border-inline-end': replaceInlineBox,
+
+    'border-inline-color': replaceInlineBoxShorthand,
+    'border-inline-start-color': replaceInlineBox,
+    'border-inline-end-color': replaceInlineBox,
+
+    'border-inline-style': replaceInlineBoxShorthand,
+    'border-inline-start-style': replaceInlineBox,
+    'border-inline-end-style': replaceInlineBox,
+
+    'border-inline-width': replaceInlineBoxShorthand,
+    'border-inline-start-width': replaceInlineBox,
+    'border-inline-end-width': replaceInlineBox,
+
+    'border-start-start-radius': replaceBorderRadius,
+    'border-start-end-radius': replaceBorderRadius,
+    'border-end-start-radius': replaceBorderRadius,
+    'border-end-end-radius': replaceBorderRadius,
+
+    // inset: // TODO: implement when the "block" props will be supported
+    'inset-inline': replaceInlinePositioningShorthand,
     'inset-inline-start': replaceInlinePositioning,
     'inset-inline-end': replaceInlinePositioning,
+
     transition: replaceTransition,
     'transition-property': replaceTransition,
 };
@@ -115,9 +193,12 @@ export function isSupportedProp(prop: string): boolean {
     return prop.toLowerCase() in transformationMap;
 }
 
-export function transformToNonLogical(decl: Readonly<Declaration>, direction: 'ltr' | 'rtl'): Declaration | undefined {
+export function transformToNonLogical(
+    decl: Readonly<Declaration>,
+    direction: 'ltr' | 'rtl',
+): Declaration | Array<Declaration> | undefined {
     const start = direction === 'ltr' ? 'left' : 'right';
     const end = direction === 'ltr' ? 'right' : 'left';
 
-    return shouldFindTransformer(decl.prop)(decl, start, end);
+    return shouldFindTransformer(decl.prop)(decl, { direction, start, end });
 }

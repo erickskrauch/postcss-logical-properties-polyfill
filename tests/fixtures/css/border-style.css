@@ -6,6 +6,14 @@
     border-inline-end-style: solid;
 }
 
+.shorthandOne {
+    border-inline-style: solid;
+}
+
+.shorthandTwo {
+    border-inline-style: solid dotted;
+}
+
 .right {
     border-right-style: solid;
 }

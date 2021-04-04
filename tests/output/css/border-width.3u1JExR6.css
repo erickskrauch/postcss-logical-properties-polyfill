@@ -22,6 +22,34 @@ html[dir="rtl"] .end {
     border-left-width: 1px;
 }
 
+.shorthandOne {
+    border-inline-width: 10px;
+}
+
+html[dir="ltr"] .shorthandOne {
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+html[dir="rtl"] .shorthandOne {
+    border-right-width: 10px;
+    border-left-width: 10px;
+}
+
+.shorthandTwo {
+    border-inline-width: 10px 5px;
+}
+
+html[dir="ltr"] .shorthandTwo {
+    border-left-width: 10px;
+    border-right-width: 5px;
+}
+
+html[dir="rtl"] .shorthandTwo {
+    border-right-width: 10px;
+    border-left-width: 5px;
+}
+
 .right {
     border-right-width: 1px;
 }

@@ -1,0 +1,15 @@
+.borderStartStart {
+    border-start-start-radius: 5px;
+}
+
+.borderStartEnd {
+    border-start-end-radius: 5px;
+}
+
+.borderEndStart {
+    border-end-start-radius: 5px;
+}
+
+.borderEndEnd {
+    border-end-end-radius: 5px;
+}
