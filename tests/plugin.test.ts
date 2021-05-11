@@ -23,13 +23,28 @@ async function loadFile(path: string): Promise<string> {
 
 async function run(
     fixturePath: string,
-    pluginOpts: Parameters<typeof plugin>[0] = {},
+    pluginOpts: Parameters<typeof plugin>[0] = {
+        modes: [
+            ['horizontal-tb', 'rtl'],
+            ['horizontal-tb', 'ltr'],
+            ['vertical-rl', 'rtl'],
+            ['vertical-rl', 'ltr'],
+            ['vertical-lr', 'rtl'],
+            ['vertical-lr', 'ltr'],
+            ['sideways-rl', 'rtl'],
+            ['sideways-rl', 'ltr'],
+            ['sideways-lr', 'rtl'],
+            ['sideways-lr', 'ltr'],
+        ],
+    },
     postcssOpts: Omit<ProcessOptions, 'from'> = {},
 ) {
     const sha256Short = crypto
         .createHash('sha256')
         .update(JSON.stringify({ pluginOpts, postcssOpts }))
         .digest('base64')
+        .replace('/', '_')
+        .replace('+', '-')
         .substr(0, 8);
 
     const inputData = await loadFile(fixturePath);
@@ -85,13 +100,25 @@ describe('properties transformation', () => {
 describe('options', () => {
     it('buildSelector', () => {
         return run(path.join(__dirname, 'fixtures', 'real-world-example.css'), {
-            buildSelector(selector, direction) {
+            buildSelector(selector, writingMode, direction) {
                 if (direction === 'ltr') {
                     return '.bar.direction-ltr ' + selector;
                 }
 
                 return '[dir="' + direction + '"] ' + selector;
             },
+        });
+    });
+
+    it('modes', () => {
+        return run(path.join(__dirname, 'fixtures', 'real-world-example.css'), {
+            modes: ['rtl'],
+        });
+    });
+
+    it('preserve', () => {
+        return run(path.join(__dirname, 'fixtures', 'real-world-example.css'), {
+            preserve: false,
         });
     });
 });

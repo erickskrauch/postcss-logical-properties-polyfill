@@ -1,17 +1,33 @@
-.start {
+.startInline {
     border-inline-start-color: #fff;
 }
 
-.end {
+.endInline {
     border-inline-end-color: #fff;
 }
 
-.shorthandOne {
+.shorthandInlineOne {
     border-inline-color: #fff;
 }
 
-.shorthandTwo {
+.shorthandInlineTwo {
     border-inline-color: #fff #000;
+}
+
+.startBlock {
+    border-block-start-color: #fff;
+}
+
+.endBlock {
+    border-block-end-color: #fff;
+}
+
+.shorthandBlockOne {
+    border-block-color: #fff;
+}
+
+.shorthandBlockTwo {
+    border-block-color: #fff #000;
 }
 
 .right {
@@ -20,4 +36,24 @@
 
 .left {
     border-left-color: #fff;
+}
+
+.shorthand {
+    border-color: red green blue white;
+}
+
+.shorthandLogicalOne {
+    border-color: logical red;
+}
+
+.shorthandLogicalTwo {
+    border-color: logical red green;
+}
+
+.shorthandLogicalThree {
+    border-color: logical red green blue;
+}
+
+.shorthandLogicalFour {
+    border-color: logical red green blue white;
 }

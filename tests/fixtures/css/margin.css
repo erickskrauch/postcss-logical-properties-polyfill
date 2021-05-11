@@ -1,17 +1,33 @@
-.start {
+.startInline {
     margin-inline-start: 1px;
 }
 
-.end {
+.endInline {
     margin-inline-end: 1px;
 }
 
-.shorthandOne {
+.shorthandInlineOne {
     margin-inline: 10px;
 }
 
-.shorthandTwo {
+.shorthandInlineTwo {
     margin-inline: 10px 5px;
+}
+
+.startBlock {
+    margin-block-start: 1px;
+}
+
+.endBlock {
+    margin-block-end: 1px;
+}
+
+.shorthandBlockOne {
+    margin-block: 10px;
+}
+
+.shorthandBlockTwo {
+    margin-block: 10px 5px;
 }
 
 .left {
@@ -20,4 +36,24 @@
 
 .right {
     margin-right: 1px;
+}
+
+.shorthand {
+    margin: 1px 2px 3px 4px;
+}
+
+.shorthandLogicalOne {
+    margin: logical 1px;
+}
+
+.shorthandLogicalTwo {
+    margin: logical 1px 2px;
+}
+
+.shorthandLogicalThree {
+    margin: logical 1px 2px 3px;
+}
+
+.shorthandLogicalFour {
+    margin: logical 1px 2px 3px 4px;
 }

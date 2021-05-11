@@ -1,17 +1,33 @@
-.start {
+.startInline {
     padding-inline-start: 1px;
 }
 
-.end {
+.endInline {
     padding-inline-end: 1px;
 }
 
-.shorthandOne {
+.shorthandInlineOne {
     padding-inline: 10px;
 }
 
-.shorthandTwo {
+.shorthandInlineTwo {
     padding-inline: 10px 5px;
+}
+
+.startBlock {
+    padding-block-start: 1px;
+}
+
+.endBlock {
+    padding-block-end: 1px;
+}
+
+.shorthandBlockOne {
+    padding-block: 10px;
+}
+
+.shorthandBlockTwo {
+    padding-block: 10px 5px;
 }
 
 .left {
@@ -20,4 +36,24 @@
 
 .right {
     padding-right: 1px;
+}
+
+.shorthand {
+    padding: 1px 2px 3px 4px;
+}
+
+.shorthandLogicalOne {
+    padding: logical 1px;
+}
+
+.shorthandLogicalTwo {
+    padding: logical 1px 2px;
+}
+
+.shorthandLogicalThree {
+    padding: logical 1px 2px 3px;
+}
+
+.shorthandLogicalFour {
+    padding: logical 1px 2px 3px 4px;
 }

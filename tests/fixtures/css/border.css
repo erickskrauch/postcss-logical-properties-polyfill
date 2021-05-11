@@ -1,11 +1,23 @@
-.start {
+.startInline {
     border-inline-start: 1px;
 }
 
-.end {
+.endInline {
     border-inline-end: 1px;
 }
 
-.shorthand {
+.shorthandInline {
     border-inline: 10px;
+}
+
+.startBlock {
+    border-block-start: 1px;
+}
+
+.endBlock {
+    border-block-end: 1px;
+}
+
+.shorthandBlock {
+    border-block: 10px;
 }

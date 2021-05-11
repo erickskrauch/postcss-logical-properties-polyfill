@@ -1,0 +1,23 @@
+.block-size {
+    block-size: 20px;
+}
+
+.max-block-size {
+    max-block-size: 30px;
+}
+
+.min-block-size {
+    min-block-size: 40px;
+}
+
+.inline-size {
+    inline-size: 20px;
+}
+
+.max-inline-size {
+    max-inline-size: 30px;
+}
+
+.min-inline-size {
+    min-inline-size: 40px;
+}

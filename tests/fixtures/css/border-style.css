@@ -1,17 +1,33 @@
-.start {
+.startInline {
     border-inline-start-style: solid;
 }
 
-.end {
+.endInline {
     border-inline-end-style: solid;
 }
 
-.shorthandOne {
+.shorthandInlineOne {
     border-inline-style: solid;
 }
 
-.shorthandTwo {
+.shorthandInlineTwo {
     border-inline-style: solid dotted;
+}
+
+.startBlock {
+    border-block-start-style: solid;
+}
+
+.endBlock {
+    border-block-end-style: solid;
+}
+
+.shorthandBlockOne {
+    border-block-style: solid;
+}
+
+.shorthandBlockTwo {
+    border-block-style: solid dotted;
 }
 
 .right {
@@ -20,4 +36,24 @@
 
 .left {
     border-left-style: solid;
+}
+
+.shorthand {
+    border-style: solid dotted dot-dash double;
+}
+
+.shorthandLogicalOne {
+    border-style: logical solid;
+}
+
+.shorthandLogicalTwo {
+    border-style: logical solid dotted;
+}
+
+.shorthandLogicalThree {
+    border-style: logical solid dotted dot-dash;
+}
+
+.shorthandLogicalFour {
+    border-style: logical solid dotted dot-dash double;
 }

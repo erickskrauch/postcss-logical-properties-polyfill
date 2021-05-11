@@ -1,0 +1,19 @@
+.block {
+    resize: block;
+}
+
+.inline {
+    resize: inline;
+}
+
+.vertical {
+    resize: vertical;
+}
+
+.horizontal {
+    resize: horizontal;
+}
+
+.horizontal {
+    resize: both;
+}

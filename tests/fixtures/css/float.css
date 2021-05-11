@@ -1,4 +1,4 @@
-.start {
+.startInline {
     float: start;
 }
 
@@ -6,7 +6,7 @@
     float: inline-start;
 }
 
-.end {
+.endInline {
     float: end;
 }
 

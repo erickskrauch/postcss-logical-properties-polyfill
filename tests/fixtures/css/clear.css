@@ -1,8 +1,8 @@
-.start {
+.startInline {
     clear: start;
 }
 
-.end {
+.endInline {
     clear: end;
 }
 

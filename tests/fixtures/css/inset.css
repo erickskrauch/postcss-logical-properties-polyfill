@@ -1,0 +1,63 @@
+.startInline {
+    inset-inline-start: 1px;
+}
+
+.endInline {
+    inset-inline-end: 1px;
+}
+
+.shorthandInlineOne {
+    inset-inline: 10px;
+}
+
+.shorthandInlineTwo {
+    inset-inline: 10px 5px;
+}
+
+.startBlock {
+    inset-block-start: 1px;
+}
+
+.endBlock {
+    inset-block-end: 1px;
+}
+
+.shorthandBlockOne {
+    inset-block: 10px;
+}
+
+.shorthandBlockTwo {
+    inset-block: 10px 5px;
+}
+
+.nonLogicalShorthandOne {
+    inset: 1px;
+}
+
+.nonLogicalShorthandTwo {
+    inset: 1px 2px;
+}
+
+.nonLogicalShorthandThree {
+    inset: 1px 2px 3px;
+}
+
+.nonLogicalShorthandFour {
+    inset: 1px 2px 3px 4px;
+}
+
+.logicalShorthandOne {
+    inset: logical 1px;
+}
+
+.logicalShorthandTwo {
+    inset: logical 1px 2px;
+}
+
+.logicalShorthandThree {
+    inset: logical 1px 2px 3px;
+}
+
+.logicalShorthandFour {
+    inset: logical 1px 2px 3px 4px;
+}
