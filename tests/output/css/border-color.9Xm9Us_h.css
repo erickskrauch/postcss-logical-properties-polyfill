@@ -1,0 +1,699 @@
+.startInline {
+    border-inline-start-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startInline {
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startInline {
+    border-top-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startInline {
+    border-top-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startInline {
+    border-bottom-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startInline {
+    border-top-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startInline {
+    border-bottom-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startInline {
+    border-top-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startInline {
+    border-bottom-color: #fff;
+}
+
+html[dir="ltr"] .startInline {
+    border-left-color: #fff;
+}
+
+html[dir="rtl"] .startInline {
+    border-right-color: #fff;
+}
+
+.endInline {
+    border-inline-end-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endInline {
+    border-top-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endInline {
+    border-bottom-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endInline {
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endInline {
+    border-top-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endInline {
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endInline {
+    border-top-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endInline {
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endInline {
+    border-top-color: #fff;
+}
+
+html[dir="ltr"] .endInline {
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .endInline {
+    border-left-color: #fff;
+}
+
+.shorthandInlineOne {
+    border-inline-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineOne {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineOne {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineOne {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineOne {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineOne {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineOne {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineOne {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineOne {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+
+html[dir="ltr"] .shorthandInlineOne {
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .shorthandInlineOne {
+    border-right-color: #fff;
+    border-left-color: #fff;
+}
+
+.shorthandInlineTwo {
+    border-inline-color: #fff #000;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    border-bottom-color: #fff;
+    border-top-color: #000;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    border-top-color: #fff;
+    border-bottom-color: #000;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    border-top-color: #fff;
+    border-bottom-color: #000;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    border-bottom-color: #fff;
+    border-top-color: #000;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    border-top-color: #fff;
+    border-bottom-color: #000;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    border-bottom-color: #fff;
+    border-top-color: #000;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    border-top-color: #fff;
+    border-bottom-color: #000;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    border-bottom-color: #fff;
+    border-top-color: #000;
+}
+
+html[dir="ltr"] .shorthandInlineTwo {
+    border-left-color: #fff;
+    border-right-color: #000;
+}
+
+html[dir="rtl"] .shorthandInlineTwo {
+    border-right-color: #fff;
+    border-left-color: #000;
+}
+
+.startBlock {
+    border-block-start-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startBlock {
+    border-left-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startBlock {
+    border-left-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startBlock {
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startBlock {
+    border-right-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startBlock {
+    border-left-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startBlock {
+    border-left-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startBlock {
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startBlock {
+    border-right-color: #fff;
+}
+
+html[dir="ltr"] .startBlock {
+    border-top-color: #fff;
+}
+
+html[dir="rtl"] .startBlock {
+    border-top-color: #fff;
+}
+
+.endBlock {
+    border-block-end-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endBlock {
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endBlock {
+    border-right-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endBlock {
+    border-left-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endBlock {
+    border-left-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endBlock {
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endBlock {
+    border-right-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endBlock {
+    border-left-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endBlock {
+    border-left-color: #fff;
+}
+
+html[dir="ltr"] .endBlock {
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .endBlock {
+    border-bottom-color: #fff;
+}
+
+.shorthandBlockOne {
+    border-block-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockOne {
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockOne {
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockOne {
+    border-right-color: #fff;
+    border-left-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockOne {
+    border-right-color: #fff;
+    border-left-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockOne {
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockOne {
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockOne {
+    border-right-color: #fff;
+    border-left-color: #fff;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockOne {
+    border-right-color: #fff;
+    border-left-color: #fff;
+}
+
+html[dir="ltr"] .shorthandBlockOne {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+html[dir="rtl"] .shorthandBlockOne {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.shorthandBlockTwo {
+    border-block-color: #fff #000;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    border-left-color: #fff;
+    border-right-color: #000;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    border-left-color: #fff;
+    border-right-color: #000;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    border-right-color: #fff;
+    border-left-color: #000;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    border-right-color: #fff;
+    border-left-color: #000;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    border-left-color: #fff;
+    border-right-color: #000;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    border-left-color: #fff;
+    border-right-color: #000;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    border-right-color: #fff;
+    border-left-color: #000;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    border-right-color: #fff;
+    border-left-color: #000;
+}
+
+html[dir="ltr"] .shorthandBlockTwo {
+    border-top-color: #fff;
+    border-bottom-color: #000;
+}
+
+html[dir="rtl"] .shorthandBlockTwo {
+    border-top-color: #fff;
+    border-bottom-color: #000;
+}
+
+.right {
+    border-right-color: #fff;
+}
+
+.left {
+    border-left-color: #fff;
+}
+
+.shorthand {
+    border-color: red green blue white;
+}
+
+.shorthandLogicalOne {
+    border-color: logical red;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalOne {
+    border-left-color: red;
+    border-bottom-color: red;
+    border-right-color: red;
+    border-top-color: red;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalOne {
+    border-left-color: red;
+    border-top-color: red;
+    border-right-color: red;
+    border-bottom-color: red;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalOne {
+    border-right-color: red;
+    border-top-color: red;
+    border-left-color: red;
+    border-bottom-color: red;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalOne {
+    border-right-color: red;
+    border-bottom-color: red;
+    border-left-color: red;
+    border-top-color: red;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalOne {
+    border-left-color: red;
+    border-top-color: red;
+    border-right-color: red;
+    border-bottom-color: red;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalOne {
+    border-left-color: red;
+    border-bottom-color: red;
+    border-right-color: red;
+    border-top-color: red;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalOne {
+    border-right-color: red;
+    border-top-color: red;
+    border-left-color: red;
+    border-bottom-color: red;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalOne {
+    border-right-color: red;
+    border-bottom-color: red;
+    border-left-color: red;
+    border-top-color: red;
+}
+
+html[dir="ltr"] .shorthandLogicalOne {
+    border-top-color: red;
+    border-left-color: red;
+    border-bottom-color: red;
+    border-right-color: red;
+}
+
+html[dir="rtl"] .shorthandLogicalOne {
+    border-top-color: red;
+    border-right-color: red;
+    border-bottom-color: red;
+    border-left-color: red;
+}
+
+.shorthandLogicalTwo {
+    border-color: logical red green;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalTwo {
+    border-left-color: red;
+    border-bottom-color: green;
+    border-right-color: red;
+    border-top-color: green;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalTwo {
+    border-left-color: red;
+    border-top-color: green;
+    border-right-color: red;
+    border-bottom-color: green;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalTwo {
+    border-right-color: red;
+    border-top-color: green;
+    border-left-color: red;
+    border-bottom-color: green;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalTwo {
+    border-right-color: red;
+    border-bottom-color: green;
+    border-left-color: red;
+    border-top-color: green;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalTwo {
+    border-left-color: red;
+    border-top-color: green;
+    border-right-color: red;
+    border-bottom-color: green;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalTwo {
+    border-left-color: red;
+    border-bottom-color: green;
+    border-right-color: red;
+    border-top-color: green;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalTwo {
+    border-right-color: red;
+    border-top-color: green;
+    border-left-color: red;
+    border-bottom-color: green;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalTwo {
+    border-right-color: red;
+    border-bottom-color: green;
+    border-left-color: red;
+    border-top-color: green;
+}
+
+html[dir="ltr"] .shorthandLogicalTwo {
+    border-top-color: red;
+    border-left-color: green;
+    border-bottom-color: red;
+    border-right-color: green;
+}
+
+html[dir="rtl"] .shorthandLogicalTwo {
+    border-top-color: red;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color: green;
+}
+
+.shorthandLogicalThree {
+    border-color: logical red green blue;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalThree {
+    border-left-color: red;
+    border-bottom-color: green;
+    border-right-color: blue;
+    border-top-color: green;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalThree {
+    border-left-color: red;
+    border-top-color: green;
+    border-right-color: blue;
+    border-bottom-color: green;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalThree {
+    border-right-color: red;
+    border-top-color: green;
+    border-left-color: blue;
+    border-bottom-color: green;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalThree {
+    border-right-color: red;
+    border-bottom-color: green;
+    border-left-color: blue;
+    border-top-color: green;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalThree {
+    border-left-color: red;
+    border-top-color: green;
+    border-right-color: blue;
+    border-bottom-color: green;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalThree {
+    border-left-color: red;
+    border-bottom-color: green;
+    border-right-color: blue;
+    border-top-color: green;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalThree {
+    border-right-color: red;
+    border-top-color: green;
+    border-left-color: blue;
+    border-bottom-color: green;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalThree {
+    border-right-color: red;
+    border-bottom-color: green;
+    border-left-color: blue;
+    border-top-color: green;
+}
+
+html[dir="ltr"] .shorthandLogicalThree {
+    border-top-color: red;
+    border-left-color: green;
+    border-bottom-color: blue;
+    border-right-color: green;
+}
+
+html[dir="rtl"] .shorthandLogicalThree {
+    border-top-color: red;
+    border-right-color: green;
+    border-bottom-color: blue;
+    border-left-color: green;
+}
+
+.shorthandLogicalFour {
+    border-color: logical red green blue white;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalFour {
+    border-left-color: red;
+    border-bottom-color: green;
+    border-right-color: blue;
+    border-top-color: white;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalFour {
+    border-left-color: red;
+    border-top-color: green;
+    border-right-color: blue;
+    border-bottom-color: white;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalFour {
+    border-right-color: red;
+    border-top-color: green;
+    border-left-color: blue;
+    border-bottom-color: white;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalFour {
+    border-right-color: red;
+    border-bottom-color: green;
+    border-left-color: blue;
+    border-top-color: white;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalFour {
+    border-left-color: red;
+    border-top-color: green;
+    border-right-color: blue;
+    border-bottom-color: white;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalFour {
+    border-left-color: red;
+    border-bottom-color: green;
+    border-right-color: blue;
+    border-top-color: white;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    border-right-color: red;
+    border-top-color: green;
+    border-left-color: blue;
+    border-bottom-color: white;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    border-right-color: red;
+    border-bottom-color: green;
+    border-left-color: blue;
+    border-top-color: white;
+}
+
+html[dir="ltr"] .shorthandLogicalFour {
+    border-top-color: red;
+    border-left-color: green;
+    border-bottom-color: blue;
+    border-right-color: white;
+}
+
+html[dir="rtl"] .shorthandLogicalFour {
+    border-top-color: red;
+    border-right-color: green;
+    border-bottom-color: blue;
+    border-left-color: white;
+}

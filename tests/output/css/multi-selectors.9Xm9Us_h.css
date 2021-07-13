@@ -1,0 +1,88 @@
+.file svg,
+.domain svg,
+.folder svg,
+.refresh svg,
+.worker svg {
+    top: 7px;
+    margin-inline-end: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .file svg,
+html[dir="ltr"] .writing-mode-sideways-lr .domain svg,
+html[dir="ltr"] .writing-mode-sideways-lr .folder svg,
+html[dir="ltr"] .writing-mode-sideways-lr .refresh svg,
+html[dir="ltr"] .writing-mode-sideways-lr .worker svg {
+    margin-top: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .file svg,
+html[dir="rtl"] .writing-mode-sideways-lr .domain svg,
+html[dir="rtl"] .writing-mode-sideways-lr .folder svg,
+html[dir="rtl"] .writing-mode-sideways-lr .refresh svg,
+html[dir="rtl"] .writing-mode-sideways-lr .worker svg {
+    margin-bottom: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .file svg,
+html[dir="ltr"] .writing-mode-sideways-rl .domain svg,
+html[dir="ltr"] .writing-mode-sideways-rl .folder svg,
+html[dir="ltr"] .writing-mode-sideways-rl .refresh svg,
+html[dir="ltr"] .writing-mode-sideways-rl .worker svg {
+    margin-bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .file svg,
+html[dir="rtl"] .writing-mode-sideways-rl .domain svg,
+html[dir="rtl"] .writing-mode-sideways-rl .folder svg,
+html[dir="rtl"] .writing-mode-sideways-rl .refresh svg,
+html[dir="rtl"] .writing-mode-sideways-rl .worker svg {
+    margin-top: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .file svg,
+html[dir="ltr"] .writing-mode-vertical-lr .domain svg,
+html[dir="ltr"] .writing-mode-vertical-lr .folder svg,
+html[dir="ltr"] .writing-mode-vertical-lr .refresh svg,
+html[dir="ltr"] .writing-mode-vertical-lr .worker svg {
+    margin-bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .file svg,
+html[dir="rtl"] .writing-mode-vertical-lr .domain svg,
+html[dir="rtl"] .writing-mode-vertical-lr .folder svg,
+html[dir="rtl"] .writing-mode-vertical-lr .refresh svg,
+html[dir="rtl"] .writing-mode-vertical-lr .worker svg {
+    margin-top: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .file svg,
+html[dir="ltr"] .writing-mode-vertical-rl .domain svg,
+html[dir="ltr"] .writing-mode-vertical-rl .folder svg,
+html[dir="ltr"] .writing-mode-vertical-rl .refresh svg,
+html[dir="ltr"] .writing-mode-vertical-rl .worker svg {
+    margin-bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .file svg,
+html[dir="rtl"] .writing-mode-vertical-rl .domain svg,
+html[dir="rtl"] .writing-mode-vertical-rl .folder svg,
+html[dir="rtl"] .writing-mode-vertical-rl .refresh svg,
+html[dir="rtl"] .writing-mode-vertical-rl .worker svg {
+    margin-top: 5px;
+}
+
+html[dir="ltr"] .file svg,
+html[dir="ltr"] .domain svg,
+html[dir="ltr"] .folder svg,
+html[dir="ltr"] .refresh svg,
+html[dir="ltr"] .worker svg {
+    margin-right: 5px;
+}
+
+html[dir="rtl"] .file svg,
+html[dir="rtl"] .domain svg,
+html[dir="rtl"] .folder svg,
+html[dir="rtl"] .refresh svg,
+html[dir="rtl"] .worker svg {
+    margin-left: 5px;
+}

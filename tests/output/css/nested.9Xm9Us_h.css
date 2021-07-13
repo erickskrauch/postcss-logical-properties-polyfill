@@ -1,0 +1,111 @@
+@media screen and (min-width: 480px) {
+    .foo {
+        inset-inline-start: 1px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-sideways-lr .foo {
+        bottom: 1px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-sideways-lr .foo {
+        top: 1px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-sideways-rl .foo {
+        top: 1px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-sideways-rl .foo {
+        bottom: 1px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-vertical-lr .foo {
+        top: 1px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-vertical-lr .foo {
+        bottom: 1px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-vertical-rl .foo {
+        top: 1px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-vertical-rl .foo {
+        bottom: 1px;
+    }
+
+
+    html[dir="ltr"] .foo {
+        left: 1px;
+    }
+
+
+    html[dir="rtl"] .foo {
+        right: 1px;
+    }
+
+    @media screen and (min-width: 768px) {
+        .bar {
+            inset-inline-end: 1px;
+        }
+
+
+        html[dir="ltr"] .writing-mode-sideways-lr .bar {
+            top: 1px;
+        }
+
+
+        html[dir="rtl"] .writing-mode-sideways-lr .bar {
+            bottom: 1px;
+        }
+
+
+        html[dir="ltr"] .writing-mode-sideways-rl .bar {
+            bottom: 1px;
+        }
+
+
+        html[dir="rtl"] .writing-mode-sideways-rl .bar {
+            top: 1px;
+        }
+
+
+        html[dir="ltr"] .writing-mode-vertical-lr .bar {
+            bottom: 1px;
+        }
+
+
+        html[dir="rtl"] .writing-mode-vertical-lr .bar {
+            top: 1px;
+        }
+
+
+        html[dir="ltr"] .writing-mode-vertical-rl .bar {
+            bottom: 1px;
+        }
+
+
+        html[dir="rtl"] .writing-mode-vertical-rl .bar {
+            top: 1px;
+        }
+
+
+        html[dir="ltr"] .bar {
+            right: 1px;
+        }
+
+
+        html[dir="rtl"] .bar {
+            left: 1px;
+        }
+    }
+}

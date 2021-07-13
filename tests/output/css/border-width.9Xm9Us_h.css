@@ -1,0 +1,699 @@
+.startInline {
+    border-inline-start-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startInline {
+    border-bottom-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startInline {
+    border-top-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startInline {
+    border-top-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startInline {
+    border-bottom-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startInline {
+    border-top-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startInline {
+    border-bottom-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startInline {
+    border-top-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startInline {
+    border-bottom-width: 1px;
+}
+
+html[dir="ltr"] .startInline {
+    border-left-width: 1px;
+}
+
+html[dir="rtl"] .startInline {
+    border-right-width: 1px;
+}
+
+.endInline {
+    border-inline-end-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endInline {
+    border-top-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endInline {
+    border-bottom-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endInline {
+    border-bottom-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endInline {
+    border-top-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endInline {
+    border-bottom-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endInline {
+    border-top-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endInline {
+    border-bottom-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endInline {
+    border-top-width: 1px;
+}
+
+html[dir="ltr"] .endInline {
+    border-right-width: 1px;
+}
+
+html[dir="rtl"] .endInline {
+    border-left-width: 1px;
+}
+
+.shorthandInlineOne {
+    border-inline-width: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineOne {
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineOne {
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineOne {
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineOne {
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineOne {
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineOne {
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineOne {
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineOne {
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+}
+
+html[dir="ltr"] .shorthandInlineOne {
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+html[dir="rtl"] .shorthandInlineOne {
+    border-right-width: 10px;
+    border-left-width: 10px;
+}
+
+.shorthandInlineTwo {
+    border-inline-width: 10px 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    border-bottom-width: 10px;
+    border-top-width: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    border-top-width: 10px;
+    border-bottom-width: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    border-top-width: 10px;
+    border-bottom-width: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    border-bottom-width: 10px;
+    border-top-width: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    border-top-width: 10px;
+    border-bottom-width: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    border-bottom-width: 10px;
+    border-top-width: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    border-top-width: 10px;
+    border-bottom-width: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    border-bottom-width: 10px;
+    border-top-width: 5px;
+}
+
+html[dir="ltr"] .shorthandInlineTwo {
+    border-left-width: 10px;
+    border-right-width: 5px;
+}
+
+html[dir="rtl"] .shorthandInlineTwo {
+    border-right-width: 10px;
+    border-left-width: 5px;
+}
+
+.startBlock {
+    border-block-start-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startBlock {
+    border-left-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startBlock {
+    border-left-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startBlock {
+    border-right-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startBlock {
+    border-right-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startBlock {
+    border-left-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startBlock {
+    border-left-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startBlock {
+    border-right-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startBlock {
+    border-right-width: 1px;
+}
+
+html[dir="ltr"] .startBlock {
+    border-top-width: 1px;
+}
+
+html[dir="rtl"] .startBlock {
+    border-top-width: 1px;
+}
+
+.endBlock {
+    border-block-end-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endBlock {
+    border-right-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endBlock {
+    border-right-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endBlock {
+    border-left-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endBlock {
+    border-left-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endBlock {
+    border-right-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endBlock {
+    border-right-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endBlock {
+    border-left-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endBlock {
+    border-left-width: 1px;
+}
+
+html[dir="ltr"] .endBlock {
+    border-bottom-width: 1px;
+}
+
+html[dir="rtl"] .endBlock {
+    border-bottom-width: 1px;
+}
+
+.shorthandBlockOne {
+    border-block-width: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockOne {
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockOne {
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockOne {
+    border-right-width: 10px;
+    border-left-width: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockOne {
+    border-right-width: 10px;
+    border-left-width: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockOne {
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockOne {
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockOne {
+    border-right-width: 10px;
+    border-left-width: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockOne {
+    border-right-width: 10px;
+    border-left-width: 10px;
+}
+
+html[dir="ltr"] .shorthandBlockOne {
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+html[dir="rtl"] .shorthandBlockOne {
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
+
+.shorthandBlockTwo {
+    border-block-width: 10px 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    border-left-width: 10px;
+    border-right-width: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    border-left-width: 10px;
+    border-right-width: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    border-right-width: 10px;
+    border-left-width: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    border-right-width: 10px;
+    border-left-width: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    border-left-width: 10px;
+    border-right-width: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    border-left-width: 10px;
+    border-right-width: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    border-right-width: 10px;
+    border-left-width: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    border-right-width: 10px;
+    border-left-width: 5px;
+}
+
+html[dir="ltr"] .shorthandBlockTwo {
+    border-top-width: 10px;
+    border-bottom-width: 5px;
+}
+
+html[dir="rtl"] .shorthandBlockTwo {
+    border-top-width: 10px;
+    border-bottom-width: 5px;
+}
+
+.right {
+    border-right-width: 1px;
+}
+
+.left {
+    border-left-width: 1px;
+}
+
+.shorthand {
+    border-width: 1px 2px 3px 4px;
+}
+
+.shorthandLogicalOne {
+    border-width: logical 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalOne {
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalOne {
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalOne {
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalOne {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalOne {
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalOne {
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalOne {
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalOne {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+}
+
+html[dir="ltr"] .shorthandLogicalOne {
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+html[dir="rtl"] .shorthandLogicalOne {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.shorthandLogicalTwo {
+    border-width: logical 1px 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalTwo {
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 1px;
+    border-top-width: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalTwo {
+    border-left-width: 1px;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalTwo {
+    border-right-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalTwo {
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-left-width: 1px;
+    border-top-width: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalTwo {
+    border-left-width: 1px;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalTwo {
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 1px;
+    border-top-width: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalTwo {
+    border-right-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalTwo {
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-left-width: 1px;
+    border-top-width: 2px;
+}
+
+html[dir="ltr"] .shorthandLogicalTwo {
+    border-top-width: 1px;
+    border-left-width: 2px;
+    border-bottom-width: 1px;
+    border-right-width: 2px;
+}
+
+html[dir="rtl"] .shorthandLogicalTwo {
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 1px;
+    border-left-width: 2px;
+}
+
+.shorthandLogicalThree {
+    border-width: logical 1px 2px 3px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalThree {
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 3px;
+    border-top-width: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalThree {
+    border-left-width: 1px;
+    border-top-width: 2px;
+    border-right-width: 3px;
+    border-bottom-width: 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalThree {
+    border-right-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 3px;
+    border-bottom-width: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalThree {
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-left-width: 3px;
+    border-top-width: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalThree {
+    border-left-width: 1px;
+    border-top-width: 2px;
+    border-right-width: 3px;
+    border-bottom-width: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalThree {
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 3px;
+    border-top-width: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalThree {
+    border-right-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 3px;
+    border-bottom-width: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalThree {
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-left-width: 3px;
+    border-top-width: 2px;
+}
+
+html[dir="ltr"] .shorthandLogicalThree {
+    border-top-width: 1px;
+    border-left-width: 2px;
+    border-bottom-width: 3px;
+    border-right-width: 2px;
+}
+
+html[dir="rtl"] .shorthandLogicalThree {
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-left-width: 2px;
+}
+
+.shorthandLogicalFour {
+    border-width: logical 1px 2px 3px 4px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalFour {
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 3px;
+    border-top-width: 4px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalFour {
+    border-left-width: 1px;
+    border-top-width: 2px;
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalFour {
+    border-right-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 3px;
+    border-bottom-width: 4px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalFour {
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-left-width: 3px;
+    border-top-width: 4px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalFour {
+    border-left-width: 1px;
+    border-top-width: 2px;
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalFour {
+    border-left-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 3px;
+    border-top-width: 4px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    border-right-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 3px;
+    border-bottom-width: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-left-width: 3px;
+    border-top-width: 4px;
+}
+
+html[dir="ltr"] .shorthandLogicalFour {
+    border-top-width: 1px;
+    border-left-width: 2px;
+    border-bottom-width: 3px;
+    border-right-width: 4px;
+}
+
+html[dir="rtl"] .shorthandLogicalFour {
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-left-width: 4px;
+}

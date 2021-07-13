@@ -1,0 +1,263 @@
+.block-size {
+    block-size: 20px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .block-size {
+    width: 20px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .block-size {
+    width: 20px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .block-size {
+    width: 20px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .block-size {
+    width: 20px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .block-size {
+    width: 20px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .block-size {
+    width: 20px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .block-size {
+    width: 20px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .block-size {
+    width: 20px;
+}
+
+html[dir="ltr"] .block-size {
+    height: 20px;
+}
+
+html[dir="rtl"] .block-size {
+    height: 20px;
+}
+
+.max-block-size {
+    max-block-size: 30px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .max-block-size {
+    max-width: 30px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .max-block-size {
+    max-width: 30px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .max-block-size {
+    max-width: 30px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .max-block-size {
+    max-width: 30px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .max-block-size {
+    max-width: 30px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .max-block-size {
+    max-width: 30px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .max-block-size {
+    max-width: 30px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .max-block-size {
+    max-width: 30px;
+}
+
+html[dir="ltr"] .max-block-size {
+    max-height: 30px;
+}
+
+html[dir="rtl"] .max-block-size {
+    max-height: 30px;
+}
+
+.min-block-size {
+    min-block-size: 40px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .min-block-size {
+    min-width: 40px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .min-block-size {
+    min-width: 40px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .min-block-size {
+    min-width: 40px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .min-block-size {
+    min-width: 40px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .min-block-size {
+    min-width: 40px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .min-block-size {
+    min-width: 40px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .min-block-size {
+    min-width: 40px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .min-block-size {
+    min-width: 40px;
+}
+
+html[dir="ltr"] .min-block-size {
+    min-height: 40px;
+}
+
+html[dir="rtl"] .min-block-size {
+    min-height: 40px;
+}
+
+.inline-size {
+    inline-size: 20px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .inline-size {
+    height: 20px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .inline-size {
+    height: 20px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .inline-size {
+    height: 20px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .inline-size {
+    height: 20px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .inline-size {
+    height: 20px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .inline-size {
+    height: 20px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .inline-size {
+    height: 20px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .inline-size {
+    height: 20px;
+}
+
+html[dir="ltr"] .inline-size {
+    width: 20px;
+}
+
+html[dir="rtl"] .inline-size {
+    width: 20px;
+}
+
+.max-inline-size {
+    max-inline-size: 30px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .max-inline-size {
+    max-height: 30px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .max-inline-size {
+    max-height: 30px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .max-inline-size {
+    max-height: 30px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .max-inline-size {
+    max-height: 30px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .max-inline-size {
+    max-height: 30px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .max-inline-size {
+    max-height: 30px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .max-inline-size {
+    max-height: 30px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .max-inline-size {
+    max-height: 30px;
+}
+
+html[dir="ltr"] .max-inline-size {
+    max-width: 30px;
+}
+
+html[dir="rtl"] .max-inline-size {
+    max-width: 30px;
+}
+
+.min-inline-size {
+    min-inline-size: 40px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .min-inline-size {
+    min-height: 40px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .min-inline-size {
+    min-height: 40px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .min-inline-size {
+    min-height: 40px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .min-inline-size {
+    min-height: 40px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .min-inline-size {
+    min-height: 40px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .min-inline-size {
+    min-height: 40px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .min-inline-size {
+    min-height: 40px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .min-inline-size {
+    min-height: 40px;
+}
+
+html[dir="ltr"] .min-inline-size {
+    min-width: 40px;
+}
+
+html[dir="rtl"] .min-inline-size {
+    min-width: 40px;
+}

@@ -1,0 +1,148 @@
+/**
+ * This case ensures that the implementation will correctly handle nested rules
+ * and the ampersand will not cause any problems
+ */
+
+.test {
+    .nested {
+        margin-inline-end: 6px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-sideways-lr .nested {
+        margin-top: 6px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-sideways-lr .nested {
+        margin-bottom: 6px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-sideways-rl .nested {
+        margin-bottom: 6px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-sideways-rl .nested {
+        margin-top: 6px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-vertical-lr .nested {
+        margin-bottom: 6px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-vertical-lr .nested {
+        margin-top: 6px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-vertical-rl .nested {
+        margin-bottom: 6px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-vertical-rl .nested {
+        margin-top: 6px;
+    }
+
+
+    html[dir="ltr"] .nested {
+        margin-right: 6px;
+    }
+
+
+    html[dir="rtl"] .nested {
+        margin-left: 6px;
+    }
+
+    &:hover {
+        inset-inline-start: 5px;
+    }
+
+    html[dir="ltr"] .writing-mode-sideways-lr &:hover {
+        bottom: 5px;
+    }
+
+    html[dir="rtl"] .writing-mode-sideways-lr &:hover {
+        top: 5px;
+    }
+
+    html[dir="ltr"] .writing-mode-sideways-rl &:hover {
+        top: 5px;
+    }
+
+    html[dir="rtl"] .writing-mode-sideways-rl &:hover {
+        bottom: 5px;
+    }
+
+    html[dir="ltr"] .writing-mode-vertical-lr &:hover {
+        top: 5px;
+    }
+
+    html[dir="rtl"] .writing-mode-vertical-lr &:hover {
+        bottom: 5px;
+    }
+
+    html[dir="ltr"] .writing-mode-vertical-rl &:hover {
+        top: 5px;
+    }
+
+    html[dir="rtl"] .writing-mode-vertical-rl &:hover {
+        bottom: 5px;
+    }
+
+    html[dir="ltr"] &:hover {
+        left: 5px;
+    }
+
+    html[dir="rtl"] &:hover {
+        right: 5px;
+    }
+
+    .parentOf & {
+        border-inline-start-color: #fff;
+    }
+
+    html[dir="ltr"] .writing-mode-sideways-lr .parentOf & {
+        border-bottom-color: #fff;
+    }
+
+    html[dir="rtl"] .writing-mode-sideways-lr .parentOf & {
+        border-top-color: #fff;
+    }
+
+    html[dir="ltr"] .writing-mode-sideways-rl .parentOf & {
+        border-top-color: #fff;
+    }
+
+    html[dir="rtl"] .writing-mode-sideways-rl .parentOf & {
+        border-bottom-color: #fff;
+    }
+
+    html[dir="ltr"] .writing-mode-vertical-lr .parentOf & {
+        border-top-color: #fff;
+    }
+
+    html[dir="rtl"] .writing-mode-vertical-lr .parentOf & {
+        border-bottom-color: #fff;
+    }
+
+    html[dir="ltr"] .writing-mode-vertical-rl .parentOf & {
+        border-top-color: #fff;
+    }
+
+    html[dir="rtl"] .writing-mode-vertical-rl .parentOf & {
+        border-bottom-color: #fff;
+    }
+
+    html[dir="ltr"] .parentOf & {
+        border-left-color: #fff;
+    }
+
+    html[dir="rtl"] .parentOf & {
+        border-right-color: #fff;
+    }
+}

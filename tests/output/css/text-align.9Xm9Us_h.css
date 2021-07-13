@@ -1,0 +1,103 @@
+.startInline {
+    text-align: start;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startInline {
+    text-align: left;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startInline {
+    text-align: right;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startInline {
+    text-align: left;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startInline {
+    text-align: right;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startInline {
+    text-align: left;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startInline {
+    text-align: right;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startInline {
+    text-align: left;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startInline {
+    text-align: right;
+}
+
+html[dir="ltr"] .startInline {
+    text-align: left;
+}
+
+html[dir="rtl"] .startInline {
+    text-align: right;
+}
+
+.endInline {
+    text-align: end;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endInline {
+    text-align: right;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endInline {
+    text-align: left;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endInline {
+    text-align: right;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endInline {
+    text-align: left;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endInline {
+    text-align: right;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endInline {
+    text-align: left;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endInline {
+    text-align: right;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endInline {
+    text-align: left;
+}
+
+html[dir="ltr"] .endInline {
+    text-align: right;
+}
+
+html[dir="rtl"] .endInline {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.initial {
+    text-align: initial;
+}
+
+.inherit {
+    text-align: inherit;
+}

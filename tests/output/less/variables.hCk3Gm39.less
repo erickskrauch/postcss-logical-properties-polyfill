@@ -1,0 +1,122 @@
+/**
+ * This case ensures that the implementation will correctly handle objects
+ * that would be Declaration when parsing ASTs, but which are not part of a Rule
+ */
+
+@import 'another.less';
+
+@border: black;
+
+.test {
+    border-inline-start-color: @border;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .test {
+    border-bottom-color: @border;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .test {
+    border-top-color: @border;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .test {
+    border-top-color: @border;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .test {
+    border-bottom-color: @border;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .test {
+    border-top-color: @border;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .test {
+    border-bottom-color: @border;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .test {
+    border-top-color: @border;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .test {
+    border-bottom-color: @border;
+}
+
+html[dir="ltr"] .test {
+    border-left-color: @border;
+}
+
+html[dir="rtl"] .test {
+    border-right-color: @border;
+}
+
+// This case isn't implemented yet
+// prettier-ignore
+@ruleset: {
+    margin-inline-end: 2px;
+}
+
+// prettier-ignore
+@rulesetWithNestedSelector: {
+    .selector {
+        padding-inline-start: 3px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-sideways-lr .selector {
+        padding-bottom: 3px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-sideways-lr .selector {
+        padding-top: 3px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-sideways-rl .selector {
+        padding-top: 3px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-sideways-rl .selector {
+        padding-bottom: 3px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-vertical-lr .selector {
+        padding-top: 3px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-vertical-lr .selector {
+        padding-bottom: 3px;
+    }
+
+
+    html[dir="ltr"] .writing-mode-vertical-rl .selector {
+        padding-top: 3px;
+    }
+
+
+    html[dir="rtl"] .writing-mode-vertical-rl .selector {
+        padding-bottom: 3px;
+    }
+
+
+    html[dir="ltr"] .selector {
+        padding-left: 3px;
+    }
+
+
+    html[dir="rtl"] .selector {
+        padding-right: 3px;
+    }
+}
+
+// prettier-ignore
+@rulesetWithNestedMixin: {
+    .mixin() {
+        padding-inline-end: 5px;
+    }
+}

@@ -1,0 +1,699 @@
+.startInline {
+    border-inline-start-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startInline {
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startInline {
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startInline {
+    border-top-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startInline {
+    border-bottom-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startInline {
+    border-top-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startInline {
+    border-bottom-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startInline {
+    border-top-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startInline {
+    border-bottom-style: solid;
+}
+
+html[dir="ltr"] .startInline {
+    border-left-style: solid;
+}
+
+html[dir="rtl"] .startInline {
+    border-right-style: solid;
+}
+
+.endInline {
+    border-inline-end-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endInline {
+    border-top-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endInline {
+    border-bottom-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endInline {
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endInline {
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endInline {
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endInline {
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endInline {
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endInline {
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .endInline {
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .endInline {
+    border-left-style: solid;
+}
+
+.shorthandInlineOne {
+    border-inline-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineOne {
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineOne {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineOne {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineOne {
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineOne {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineOne {
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineOne {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineOne {
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .shorthandInlineOne {
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .shorthandInlineOne {
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+.shorthandInlineTwo {
+    border-inline-style: solid dotted;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    border-bottom-style: solid;
+    border-top-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    border-top-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    border-top-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    border-bottom-style: solid;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    border-top-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    border-bottom-style: solid;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    border-top-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    border-bottom-style: solid;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .shorthandInlineTwo {
+    border-left-style: solid;
+    border-right-style: dotted;
+}
+
+html[dir="rtl"] .shorthandInlineTwo {
+    border-right-style: solid;
+    border-left-style: dotted;
+}
+
+.startBlock {
+    border-block-start-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startBlock {
+    border-left-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startBlock {
+    border-left-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startBlock {
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startBlock {
+    border-right-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startBlock {
+    border-left-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startBlock {
+    border-left-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startBlock {
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startBlock {
+    border-right-style: solid;
+}
+
+html[dir="ltr"] .startBlock {
+    border-top-style: solid;
+}
+
+html[dir="rtl"] .startBlock {
+    border-top-style: solid;
+}
+
+.endBlock {
+    border-block-end-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endBlock {
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endBlock {
+    border-right-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endBlock {
+    border-left-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endBlock {
+    border-left-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endBlock {
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endBlock {
+    border-right-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endBlock {
+    border-left-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endBlock {
+    border-left-style: solid;
+}
+
+html[dir="ltr"] .endBlock {
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .endBlock {
+    border-bottom-style: solid;
+}
+
+.shorthandBlockOne {
+    border-block-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockOne {
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockOne {
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockOne {
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockOne {
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockOne {
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockOne {
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockOne {
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockOne {
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+html[dir="ltr"] .shorthandBlockOne {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .shorthandBlockOne {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.shorthandBlockTwo {
+    border-block-style: solid dotted;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    border-left-style: solid;
+    border-right-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    border-left-style: solid;
+    border-right-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    border-right-style: solid;
+    border-left-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    border-right-style: solid;
+    border-left-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    border-left-style: solid;
+    border-right-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    border-left-style: solid;
+    border-right-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    border-right-style: solid;
+    border-left-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    border-right-style: solid;
+    border-left-style: dotted;
+}
+
+html[dir="ltr"] .shorthandBlockTwo {
+    border-top-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .shorthandBlockTwo {
+    border-top-style: solid;
+    border-bottom-style: dotted;
+}
+
+.right {
+    border-right-style: solid;
+}
+
+.left {
+    border-left-style: solid;
+}
+
+.shorthand {
+    border-style: solid dotted dot-dash double;
+}
+
+.shorthandLogicalOne {
+    border-style: logical solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalOne {
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalOne {
+    border-left-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalOne {
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalOne {
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalOne {
+    border-left-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalOne {
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalOne {
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalOne {
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-style: solid;
+}
+
+html[dir="ltr"] .shorthandLogicalOne {
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+html[dir="rtl"] .shorthandLogicalOne {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+.shorthandLogicalTwo {
+    border-style: logical solid dotted;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalTwo {
+    border-left-style: solid;
+    border-bottom-style: dotted;
+    border-right-style: solid;
+    border-top-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalTwo {
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalTwo {
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-left-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalTwo {
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalTwo {
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalTwo {
+    border-left-style: solid;
+    border-bottom-style: dotted;
+    border-right-style: solid;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalTwo {
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-left-style: solid;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalTwo {
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .shorthandLogicalTwo {
+    border-top-style: solid;
+    border-left-style: dotted;
+    border-bottom-style: solid;
+    border-right-style: dotted;
+}
+
+html[dir="rtl"] .shorthandLogicalTwo {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: solid;
+    border-left-style: dotted;
+}
+
+.shorthandLogicalThree {
+    border-style: logical solid dotted dot-dash;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalThree {
+    border-left-style: solid;
+    border-bottom-style: dotted;
+    border-right-style: dot-dash;
+    border-top-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalThree {
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: dot-dash;
+    border-bottom-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalThree {
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-left-style: dot-dash;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalThree {
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: dot-dash;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalThree {
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: dot-dash;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalThree {
+    border-left-style: solid;
+    border-bottom-style: dotted;
+    border-right-style: dot-dash;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalThree {
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-left-style: dot-dash;
+    border-bottom-style: dotted;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalThree {
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: dot-dash;
+    border-top-style: dotted;
+}
+
+html[dir="ltr"] .shorthandLogicalThree {
+    border-top-style: solid;
+    border-left-style: dotted;
+    border-bottom-style: dot-dash;
+    border-right-style: dotted;
+}
+
+html[dir="rtl"] .shorthandLogicalThree {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: dot-dash;
+    border-left-style: dotted;
+}
+
+.shorthandLogicalFour {
+    border-style: logical solid dotted dot-dash double;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalFour {
+    border-left-style: solid;
+    border-bottom-style: dotted;
+    border-right-style: dot-dash;
+    border-top-style: double;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalFour {
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: dot-dash;
+    border-bottom-style: double;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalFour {
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-left-style: dot-dash;
+    border-bottom-style: double;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalFour {
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: dot-dash;
+    border-top-style: double;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalFour {
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-right-style: dot-dash;
+    border-bottom-style: double;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalFour {
+    border-left-style: solid;
+    border-bottom-style: dotted;
+    border-right-style: dot-dash;
+    border-top-style: double;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-left-style: dot-dash;
+    border-bottom-style: double;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: dot-dash;
+    border-top-style: double;
+}
+
+html[dir="ltr"] .shorthandLogicalFour {
+    border-top-style: solid;
+    border-left-style: dotted;
+    border-bottom-style: dot-dash;
+    border-right-style: double;
+}
+
+html[dir="rtl"] .shorthandLogicalFour {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: dot-dash;
+    border-left-style: double;
+}

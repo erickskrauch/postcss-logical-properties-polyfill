@@ -1,0 +1,346 @@
+.transitionPropertySingle {
+    position: absolute;
+    inset-inline-end: 0;
+    transition-duration: 0.2s;
+    transition-property: inset-inline-end;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .transitionPropertySingle {
+    top: 0;
+    transition-property: top;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .transitionPropertySingle {
+    bottom: 0;
+    transition-property: bottom;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .transitionPropertySingle {
+    bottom: 0;
+    transition-property: bottom;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .transitionPropertySingle {
+    top: 0;
+    transition-property: top;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .transitionPropertySingle {
+    bottom: 0;
+    transition-property: bottom;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .transitionPropertySingle {
+    top: 0;
+    transition-property: top;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .transitionPropertySingle {
+    bottom: 0;
+    transition-property: bottom;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .transitionPropertySingle {
+    top: 0;
+    transition-property: top;
+}
+
+html[dir="ltr"] .transitionPropertySingle {
+    right: 0;
+    transition-property: right;
+}
+
+html[dir="rtl"] .transitionPropertySingle {
+    left: 0;
+    transition-property: left;
+}
+
+.transitionPropertyMultiple {
+    position: absolute;
+    top: 0;
+    inset-inline-end: 0;
+    transition-duration: 0.2s, 0.3s;
+    transition-property: inset-inline-end, top;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .transitionPropertyMultiple {
+    top: 0;
+    transition-property: top, top;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .transitionPropertyMultiple {
+    bottom: 0;
+    transition-property: bottom, top;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .transitionPropertyMultiple {
+    bottom: 0;
+    transition-property: bottom, top;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .transitionPropertyMultiple {
+    top: 0;
+    transition-property: top, top;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .transitionPropertyMultiple {
+    bottom: 0;
+    transition-property: bottom, top;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .transitionPropertyMultiple {
+    top: 0;
+    transition-property: top, top;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .transitionPropertyMultiple {
+    bottom: 0;
+    transition-property: bottom, top;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .transitionPropertyMultiple {
+    top: 0;
+    transition-property: top, top;
+}
+
+html[dir="ltr"] .transitionPropertyMultiple {
+    right: 0;
+    transition-property: right, top;
+}
+
+html[dir="rtl"] .transitionPropertyMultiple {
+    left: 0;
+    transition-property: left, top;
+}
+
+.transitionShorthandSingle {
+    position: absolute;
+    inset-inline-end: 0;
+    transition: inset-inline-end 0.2s ease-in-out;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .transitionShorthandSingle {
+    top: 0;
+    transition: top 0.2s ease-in-out;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .transitionShorthandSingle {
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .transitionShorthandSingle {
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .transitionShorthandSingle {
+    top: 0;
+    transition: top 0.2s ease-in-out;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .transitionShorthandSingle {
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .transitionShorthandSingle {
+    top: 0;
+    transition: top 0.2s ease-in-out;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .transitionShorthandSingle {
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .transitionShorthandSingle {
+    top: 0;
+    transition: top 0.2s ease-in-out;
+}
+
+html[dir="ltr"] .transitionShorthandSingle {
+    right: 0;
+    transition: right 0.2s ease-in-out;
+}
+
+html[dir="rtl"] .transitionShorthandSingle {
+    left: 0;
+    transition: left 0.2s ease-in-out;
+}
+
+.transitionShorthandMultiple {
+    position: absolute;
+    top: 0;
+    inset-inline-end: 0;
+    transition: inset-inline-end 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .transitionShorthandMultiple {
+    top: 0;
+    transition: top 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .transitionShorthandMultiple {
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .transitionShorthandMultiple {
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .transitionShorthandMultiple {
+    top: 0;
+    transition: top 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .transitionShorthandMultiple {
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .transitionShorthandMultiple {
+    top: 0;
+    transition: top 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .transitionShorthandMultiple {
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .transitionShorthandMultiple {
+    top: 0;
+    transition: top 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .transitionShorthandMultiple {
+    right: 0;
+    transition: right 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .transitionShorthandMultiple {
+    left: 0;
+    transition: left 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+.transitionShorthandComplex {
+    position: absolute;
+    top: 0;
+    inset-inline: 10px 20px;
+    transition: inset-inline 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .transitionShorthandComplex {
+    bottom: 10px;
+    top: 20px;
+    transition: top 0.2s ease-in-out, bottom 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .transitionShorthandComplex {
+    top: 10px;
+    bottom: 20px;
+    transition: bottom 0.2s ease-in-out, top 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .transitionShorthandComplex {
+    top: 10px;
+    bottom: 20px;
+    transition: bottom 0.2s ease-in-out, top 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .transitionShorthandComplex {
+    bottom: 10px;
+    top: 20px;
+    transition: top 0.2s ease-in-out, bottom 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .transitionShorthandComplex {
+    top: 10px;
+    bottom: 20px;
+    transition: bottom 0.2s ease-in-out, top 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .transitionShorthandComplex {
+    bottom: 10px;
+    top: 20px;
+    transition: top 0.2s ease-in-out, bottom 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .transitionShorthandComplex {
+    top: 10px;
+    bottom: 20px;
+    transition: bottom 0.2s ease-in-out, top 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .transitionShorthandComplex {
+    bottom: 10px;
+    top: 20px;
+    transition: top 0.2s ease-in-out, bottom 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="ltr"] .transitionShorthandComplex {
+    left: 10px;
+    right: 20px;
+    transition: right 0.2s ease-in-out, left 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+html[dir="rtl"] .transitionShorthandComplex {
+    right: 10px;
+    left: 20px;
+    transition: left 0.2s ease-in-out, right 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+.transitionOnlySupportedProperties {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.2s ease-in-out, top 0.3s ease-in;
+}
+
+.invalidInput {
+    text-align: start;
+    transition: text-align 0.2s ease-in;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .invalidInput {
+    text-align: left;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .invalidInput {
+    text-align: right;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .invalidInput {
+    text-align: left;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .invalidInput {
+    text-align: right;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .invalidInput {
+    text-align: left;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .invalidInput {
+    text-align: right;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .invalidInput {
+    text-align: left;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .invalidInput {
+    text-align: right;
+}
+
+html[dir="ltr"] .invalidInput {
+    text-align: left;
+}
+
+html[dir="rtl"] .invalidInput {
+    text-align: right;
+}

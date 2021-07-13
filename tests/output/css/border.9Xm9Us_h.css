@@ -1,0 +1,283 @@
+.startInline {
+    border-inline-start: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startInline {
+    border-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startInline {
+    border-top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startInline {
+    border-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startInline {
+    border-bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startInline {
+    border-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startInline {
+    border-bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startInline {
+    border-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startInline {
+    border-bottom: 1px;
+}
+
+html[dir="ltr"] .startInline {
+    border-left: 1px;
+}
+
+html[dir="rtl"] .startInline {
+    border-right: 1px;
+}
+
+.endInline {
+    border-inline-end: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endInline {
+    border-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endInline {
+    border-bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endInline {
+    border-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endInline {
+    border-top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endInline {
+    border-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endInline {
+    border-top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endInline {
+    border-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endInline {
+    border-top: 1px;
+}
+
+html[dir="ltr"] .endInline {
+    border-right: 1px;
+}
+
+html[dir="rtl"] .endInline {
+    border-left: 1px;
+}
+
+.shorthandInline {
+    border-inline: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInline {
+    border-bottom: 10px;
+    border-top: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInline {
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInline {
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInline {
+    border-bottom: 10px;
+    border-top: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInline {
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInline {
+    border-bottom: 10px;
+    border-top: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInline {
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInline {
+    border-bottom: 10px;
+    border-top: 10px;
+}
+
+html[dir="ltr"] .shorthandInline {
+    border-left: 10px;
+    border-right: 10px;
+}
+
+html[dir="rtl"] .shorthandInline {
+    border-right: 10px;
+    border-left: 10px;
+}
+
+.startBlock {
+    border-block-start: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startBlock {
+    border-left: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startBlock {
+    border-left: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startBlock {
+    border-right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startBlock {
+    border-right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startBlock {
+    border-left: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startBlock {
+    border-left: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startBlock {
+    border-right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startBlock {
+    border-right: 1px;
+}
+
+html[dir="ltr"] .startBlock {
+    border-top: 1px;
+}
+
+html[dir="rtl"] .startBlock {
+    border-top: 1px;
+}
+
+.endBlock {
+    border-block-end: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endBlock {
+    border-right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endBlock {
+    border-right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endBlock {
+    border-left: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endBlock {
+    border-left: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endBlock {
+    border-right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endBlock {
+    border-right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endBlock {
+    border-left: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endBlock {
+    border-left: 1px;
+}
+
+html[dir="ltr"] .endBlock {
+    border-bottom: 1px;
+}
+
+html[dir="rtl"] .endBlock {
+    border-bottom: 1px;
+}
+
+.shorthandBlock {
+    border-block: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlock {
+    border-left: 10px;
+    border-right: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlock {
+    border-left: 10px;
+    border-right: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlock {
+    border-right: 10px;
+    border-left: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlock {
+    border-right: 10px;
+    border-left: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlock {
+    border-left: 10px;
+    border-right: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlock {
+    border-left: 10px;
+    border-right: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlock {
+    border-right: 10px;
+    border-left: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlock {
+    border-right: 10px;
+    border-left: 10px;
+}
+
+html[dir="ltr"] .shorthandBlock {
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+html[dir="rtl"] .shorthandBlock {
+    border-top: 10px;
+    border-bottom: 10px;
+}

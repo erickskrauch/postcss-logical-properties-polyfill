@@ -1,0 +1,99 @@
+.block {
+    resize: block;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .block {
+    resize: horizontal;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .block {
+    resize: horizontal;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .block {
+    resize: horizontal;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .block {
+    resize: horizontal;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .block {
+    resize: horizontal;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .block {
+    resize: horizontal;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .block {
+    resize: horizontal;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .block {
+    resize: horizontal;
+}
+
+html[dir="ltr"] .block {
+    resize: vertical;
+}
+
+html[dir="rtl"] .block {
+    resize: vertical;
+}
+
+.inline {
+    resize: inline;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .inline {
+    resize: vertical;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .inline {
+    resize: vertical;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .inline {
+    resize: vertical;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .inline {
+    resize: vertical;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .inline {
+    resize: vertical;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .inline {
+    resize: vertical;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .inline {
+    resize: vertical;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .inline {
+    resize: vertical;
+}
+
+html[dir="ltr"] .inline {
+    resize: horizontal;
+}
+
+html[dir="rtl"] .inline {
+    resize: horizontal;
+}
+
+.vertical {
+    resize: vertical;
+}
+
+.horizontal {
+    resize: horizontal;
+}
+
+.horizontal {
+    resize: both;
+}

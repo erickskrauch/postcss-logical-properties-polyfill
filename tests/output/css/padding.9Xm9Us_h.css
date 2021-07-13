@@ -1,0 +1,699 @@
+.startInline {
+    padding-inline-start: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startInline {
+    padding-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startInline {
+    padding-top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startInline {
+    padding-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startInline {
+    padding-bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startInline {
+    padding-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startInline {
+    padding-bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startInline {
+    padding-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startInline {
+    padding-bottom: 1px;
+}
+
+html[dir="ltr"] .startInline {
+    padding-left: 1px;
+}
+
+html[dir="rtl"] .startInline {
+    padding-right: 1px;
+}
+
+.endInline {
+    padding-inline-end: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endInline {
+    padding-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endInline {
+    padding-bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endInline {
+    padding-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endInline {
+    padding-top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endInline {
+    padding-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endInline {
+    padding-top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endInline {
+    padding-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endInline {
+    padding-top: 1px;
+}
+
+html[dir="ltr"] .endInline {
+    padding-right: 1px;
+}
+
+html[dir="rtl"] .endInline {
+    padding-left: 1px;
+}
+
+.shorthandInlineOne {
+    padding-inline: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineOne {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineOne {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineOne {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineOne {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineOne {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineOne {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineOne {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineOne {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+html[dir="ltr"] .shorthandInlineOne {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+html[dir="rtl"] .shorthandInlineOne {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.shorthandInlineTwo {
+    padding-inline: 10px 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+html[dir="ltr"] .shorthandInlineTwo {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+html[dir="rtl"] .shorthandInlineTwo {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.startBlock {
+    padding-block-start: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startBlock {
+    padding-left: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startBlock {
+    padding-left: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startBlock {
+    padding-right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startBlock {
+    padding-right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startBlock {
+    padding-left: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startBlock {
+    padding-left: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startBlock {
+    padding-right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startBlock {
+    padding-right: 1px;
+}
+
+html[dir="ltr"] .startBlock {
+    padding-top: 1px;
+}
+
+html[dir="rtl"] .startBlock {
+    padding-top: 1px;
+}
+
+.endBlock {
+    padding-block-end: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endBlock {
+    padding-right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endBlock {
+    padding-right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endBlock {
+    padding-left: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endBlock {
+    padding-left: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endBlock {
+    padding-right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endBlock {
+    padding-right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endBlock {
+    padding-left: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endBlock {
+    padding-left: 1px;
+}
+
+html[dir="ltr"] .endBlock {
+    padding-bottom: 1px;
+}
+
+html[dir="rtl"] .endBlock {
+    padding-bottom: 1px;
+}
+
+.shorthandBlockOne {
+    padding-block: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockOne {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockOne {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockOne {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockOne {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockOne {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockOne {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockOne {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockOne {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+html[dir="ltr"] .shorthandBlockOne {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html[dir="rtl"] .shorthandBlockOne {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.shorthandBlockTwo {
+    padding-block: 10px 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+html[dir="ltr"] .shorthandBlockTwo {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+html[dir="rtl"] .shorthandBlockTwo {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.left {
+    padding-left: 1px;
+}
+
+.right {
+    padding-right: 1px;
+}
+
+.shorthand {
+    padding: 1px 2px 3px 4px;
+}
+
+.shorthandLogicalOne {
+    padding: logical 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalOne {
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalOne {
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalOne {
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalOne {
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalOne {
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalOne {
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalOne {
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalOne {
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+html[dir="ltr"] .shorthandLogicalOne {
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+}
+
+html[dir="rtl"] .shorthandLogicalOne {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+}
+
+.shorthandLogicalTwo {
+    padding: logical 1px 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalTwo {
+    padding-left: 1px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+    padding-top: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalTwo {
+    padding-left: 1px;
+    padding-top: 2px;
+    padding-right: 1px;
+    padding-bottom: 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalTwo {
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-left: 1px;
+    padding-bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalTwo {
+    padding-right: 1px;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    padding-top: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalTwo {
+    padding-left: 1px;
+    padding-top: 2px;
+    padding-right: 1px;
+    padding-bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalTwo {
+    padding-left: 1px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+    padding-top: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalTwo {
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-left: 1px;
+    padding-bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalTwo {
+    padding-right: 1px;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    padding-top: 2px;
+}
+
+html[dir="ltr"] .shorthandLogicalTwo {
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+}
+
+html[dir="rtl"] .shorthandLogicalTwo {
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+}
+
+.shorthandLogicalThree {
+    padding: logical 1px 2px 3px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalThree {
+    padding-left: 1px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    padding-top: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalThree {
+    padding-left: 1px;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalThree {
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalThree {
+    padding-right: 1px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalThree {
+    padding-left: 1px;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalThree {
+    padding-left: 1px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    padding-top: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalThree {
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalThree {
+    padding-right: 1px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+html[dir="ltr"] .shorthandLogicalThree {
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+    padding-right: 2px;
+}
+
+html[dir="rtl"] .shorthandLogicalThree {
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+}
+
+.shorthandLogicalFour {
+    padding: logical 1px 2px 3px 4px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalFour {
+    padding-left: 1px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    padding-top: 4px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalFour {
+    padding-left: 1px;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 4px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalFour {
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalFour {
+    padding-right: 1px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-top: 4px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalFour {
+    padding-left: 1px;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalFour {
+    padding-left: 1px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    padding-top: 4px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    padding-right: 1px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-top: 4px;
+}
+
+html[dir="ltr"] .shorthandLogicalFour {
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+}
+
+html[dir="rtl"] .shorthandLogicalFour {
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 3px;
+    padding-left: 4px;
+}

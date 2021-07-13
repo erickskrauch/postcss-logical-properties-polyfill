@@ -1,0 +1,175 @@
+.borderStartStart {
+    border-start-start-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .borderStartStart {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .borderStartStart {
+    border-top-left-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .borderStartStart {
+    border-top-right-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .borderStartStart {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .borderStartStart {
+    border-top-left-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .borderStartStart {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .borderStartStart {
+    border-top-right-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .borderStartStart {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="ltr"] .borderStartStart {
+    border-top-left-radius: 5px;
+}
+
+html[dir="rtl"] .borderStartStart {
+    border-top-right-radius: 5px;
+}
+
+.borderStartEnd {
+    border-start-end-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .borderStartEnd {
+    border-top-left-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .borderStartEnd {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .borderStartEnd {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .borderStartEnd {
+    border-top-right-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .borderStartEnd {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .borderStartEnd {
+    border-top-left-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .borderStartEnd {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .borderStartEnd {
+    border-top-right-radius: 5px;
+}
+
+html[dir="ltr"] .borderStartEnd {
+    border-top-right-radius: 5px;
+}
+
+html[dir="rtl"] .borderStartEnd {
+    border-top-left-radius: 5px;
+}
+
+.borderEndStart {
+    border-end-start-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .borderEndStart {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .borderEndStart {
+    border-top-right-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .borderEndStart {
+    border-top-left-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .borderEndStart {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .borderEndStart {
+    border-top-right-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .borderEndStart {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .borderEndStart {
+    border-top-left-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .borderEndStart {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="ltr"] .borderEndStart {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="rtl"] .borderEndStart {
+    border-bottom-right-radius: 5px;
+}
+
+.borderEndEnd {
+    border-end-end-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .borderEndEnd {
+    border-top-right-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .borderEndEnd {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .borderEndEnd {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .borderEndEnd {
+    border-top-left-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .borderEndEnd {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .borderEndEnd {
+    border-top-right-radius: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .borderEndEnd {
+    border-bottom-left-radius: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .borderEndEnd {
+    border-top-left-radius: 5px;
+}
+
+html[dir="ltr"] .borderEndEnd {
+    border-bottom-right-radius: 5px;
+}
+
+html[dir="rtl"] .borderEndEnd {
+    border-bottom-left-radius: 5px;
+}

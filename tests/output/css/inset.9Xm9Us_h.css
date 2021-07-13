@@ -1,0 +1,983 @@
+.startInline {
+    inset-inline-start: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startInline {
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startInline {
+    top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startInline {
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startInline {
+    bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startInline {
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startInline {
+    bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startInline {
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startInline {
+    bottom: 1px;
+}
+
+html[dir="ltr"] .startInline {
+    left: 1px;
+}
+
+html[dir="rtl"] .startInline {
+    right: 1px;
+}
+
+.endInline {
+    inset-inline-end: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endInline {
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endInline {
+    bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endInline {
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endInline {
+    top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endInline {
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endInline {
+    top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endInline {
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endInline {
+    top: 1px;
+}
+
+html[dir="ltr"] .endInline {
+    right: 1px;
+}
+
+html[dir="rtl"] .endInline {
+    left: 1px;
+}
+
+.shorthandInlineOne {
+    inset-inline: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineOne {
+    bottom: 10px;
+    top: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineOne {
+    top: 10px;
+    bottom: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineOne {
+    top: 10px;
+    bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineOne {
+    bottom: 10px;
+    top: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineOne {
+    top: 10px;
+    bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineOne {
+    bottom: 10px;
+    top: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineOne {
+    top: 10px;
+    bottom: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineOne {
+    bottom: 10px;
+    top: 10px;
+}
+
+html[dir="ltr"] .shorthandInlineOne {
+    left: 10px;
+    right: 10px;
+}
+
+html[dir="rtl"] .shorthandInlineOne {
+    right: 10px;
+    left: 10px;
+}
+
+.shorthandInlineTwo {
+    inset-inline: 10px 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    bottom: 10px;
+    top: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandInlineTwo {
+    top: 10px;
+    bottom: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    top: 10px;
+    bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandInlineTwo {
+    bottom: 10px;
+    top: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    top: 10px;
+    bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandInlineTwo {
+    bottom: 10px;
+    top: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    top: 10px;
+    bottom: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandInlineTwo {
+    bottom: 10px;
+    top: 5px;
+}
+
+html[dir="ltr"] .shorthandInlineTwo {
+    left: 10px;
+    right: 5px;
+}
+
+html[dir="rtl"] .shorthandInlineTwo {
+    right: 10px;
+    left: 5px;
+}
+
+.startBlock {
+    inset-block-start: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .startBlock {
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .startBlock {
+    top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .startBlock {
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .startBlock {
+    bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .startBlock {
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .startBlock {
+    bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .startBlock {
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .startBlock {
+    bottom: 1px;
+}
+
+html[dir="ltr"] .startBlock {
+    left: 1px;
+}
+
+html[dir="rtl"] .startBlock {
+    right: 1px;
+}
+
+.endBlock {
+    inset-block-end: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .endBlock {
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .endBlock {
+    bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .endBlock {
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .endBlock {
+    top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .endBlock {
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .endBlock {
+    top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .endBlock {
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .endBlock {
+    top: 1px;
+}
+
+html[dir="ltr"] .endBlock {
+    right: 1px;
+}
+
+html[dir="rtl"] .endBlock {
+    left: 1px;
+}
+
+.shorthandBlockOne {
+    inset-block: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockOne {
+    left: 10px;
+    right: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockOne {
+    left: 10px;
+    right: 10px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockOne {
+    right: 10px;
+    left: 10px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockOne {
+    right: 10px;
+    left: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockOne {
+    left: 10px;
+    right: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockOne {
+    left: 10px;
+    right: 10px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockOne {
+    right: 10px;
+    left: 10px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockOne {
+    right: 10px;
+    left: 10px;
+}
+
+html[dir="ltr"] .shorthandBlockOne {
+    top: 10px;
+    bottom: 10px;
+}
+
+html[dir="rtl"] .shorthandBlockOne {
+    top: 10px;
+    bottom: 10px;
+}
+
+.shorthandBlockTwo {
+    inset-block: 10px 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    left: 10px;
+    right: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .shorthandBlockTwo {
+    left: 10px;
+    right: 5px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    right: 10px;
+    left: 5px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .shorthandBlockTwo {
+    right: 10px;
+    left: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    left: 10px;
+    right: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .shorthandBlockTwo {
+    left: 10px;
+    right: 5px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    right: 10px;
+    left: 5px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandBlockTwo {
+    right: 10px;
+    left: 5px;
+}
+
+html[dir="ltr"] .shorthandBlockTwo {
+    top: 10px;
+    bottom: 5px;
+}
+
+html[dir="rtl"] .shorthandBlockTwo {
+    top: 10px;
+    bottom: 5px;
+}
+
+.nonLogicalShorthandOne {
+    inset: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="ltr"] .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="rtl"] .nonLogicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+.nonLogicalShorthandTwo {
+    inset: 1px 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="ltr"] .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="rtl"] .nonLogicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+.nonLogicalShorthandThree {
+    inset: 1px 2px 3px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="ltr"] .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="rtl"] .nonLogicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+.nonLogicalShorthandFour {
+    inset: 1px 2px 3px 4px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="ltr"] .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="rtl"] .nonLogicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+.logicalShorthandOne {
+    inset: logical 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .logicalShorthandOne {
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    top: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .logicalShorthandOne {
+    left: 1px;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .logicalShorthandOne {
+    right: 1px;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .logicalShorthandOne {
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .logicalShorthandOne {
+    left: 1px;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .logicalShorthandOne {
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    top: 1px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .logicalShorthandOne {
+    right: 1px;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .logicalShorthandOne {
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    top: 1px;
+}
+
+html[dir="ltr"] .logicalShorthandOne {
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+}
+
+html[dir="rtl"] .logicalShorthandOne {
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+}
+
+.logicalShorthandTwo {
+    inset: logical 1px 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .logicalShorthandTwo {
+    left: 1px;
+    bottom: 2px;
+    right: 1px;
+    top: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .logicalShorthandTwo {
+    left: 1px;
+    top: 2px;
+    right: 1px;
+    bottom: 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .logicalShorthandTwo {
+    right: 1px;
+    top: 2px;
+    left: 1px;
+    bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .logicalShorthandTwo {
+    right: 1px;
+    bottom: 2px;
+    left: 1px;
+    top: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .logicalShorthandTwo {
+    left: 1px;
+    top: 2px;
+    right: 1px;
+    bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .logicalShorthandTwo {
+    left: 1px;
+    bottom: 2px;
+    right: 1px;
+    top: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .logicalShorthandTwo {
+    right: 1px;
+    top: 2px;
+    left: 1px;
+    bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .logicalShorthandTwo {
+    right: 1px;
+    bottom: 2px;
+    left: 1px;
+    top: 2px;
+}
+
+html[dir="ltr"] .logicalShorthandTwo {
+    top: 1px;
+    left: 2px;
+    bottom: 1px;
+    right: 2px;
+}
+
+html[dir="rtl"] .logicalShorthandTwo {
+    top: 1px;
+    right: 2px;
+    bottom: 1px;
+    left: 2px;
+}
+
+.logicalShorthandThree {
+    inset: logical 1px 2px 3px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .logicalShorthandThree {
+    left: 1px;
+    bottom: 2px;
+    right: 3px;
+    top: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .logicalShorthandThree {
+    left: 1px;
+    top: 2px;
+    right: 3px;
+    bottom: 2px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .logicalShorthandThree {
+    right: 1px;
+    top: 2px;
+    left: 3px;
+    bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .logicalShorthandThree {
+    right: 1px;
+    bottom: 2px;
+    left: 3px;
+    top: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .logicalShorthandThree {
+    left: 1px;
+    top: 2px;
+    right: 3px;
+    bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .logicalShorthandThree {
+    left: 1px;
+    bottom: 2px;
+    right: 3px;
+    top: 2px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .logicalShorthandThree {
+    right: 1px;
+    top: 2px;
+    left: 3px;
+    bottom: 2px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .logicalShorthandThree {
+    right: 1px;
+    bottom: 2px;
+    left: 3px;
+    top: 2px;
+}
+
+html[dir="ltr"] .logicalShorthandThree {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 2px;
+}
+
+html[dir="rtl"] .logicalShorthandThree {
+    top: 1px;
+    right: 2px;
+    bottom: 3px;
+    left: 2px;
+}
+
+.logicalShorthandFour {
+    inset: logical 1px 2px 3px 4px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .logicalShorthandFour {
+    left: 1px;
+    bottom: 2px;
+    right: 3px;
+    top: 4px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .logicalShorthandFour {
+    left: 1px;
+    top: 2px;
+    right: 3px;
+    bottom: 4px;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .logicalShorthandFour {
+    right: 1px;
+    top: 2px;
+    left: 3px;
+    bottom: 4px;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .logicalShorthandFour {
+    right: 1px;
+    bottom: 2px;
+    left: 3px;
+    top: 4px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .logicalShorthandFour {
+    left: 1px;
+    top: 2px;
+    right: 3px;
+    bottom: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .logicalShorthandFour {
+    left: 1px;
+    bottom: 2px;
+    right: 3px;
+    top: 4px;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .logicalShorthandFour {
+    right: 1px;
+    top: 2px;
+    left: 3px;
+    bottom: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .logicalShorthandFour {
+    right: 1px;
+    bottom: 2px;
+    left: 3px;
+    top: 4px;
+}
+
+html[dir="ltr"] .logicalShorthandFour {
+    top: 1px;
+    left: 2px;
+    bottom: 3px;
+    right: 4px;
+}
+
+html[dir="rtl"] .logicalShorthandFour {
+    top: 1px;
+    right: 2px;
+    bottom: 3px;
+    left: 4px;
+}
