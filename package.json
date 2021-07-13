@@ -1,24 +1,35 @@
 {
     "name": "postcss-logical-properties-polyfill",
-    "version": "0.0.1",
-    "description": "PostCSS plugin that polyfill Mozilla's Bi-directional CSS proposal to support direction-sensitive rules, a.k.a Left-To-Right (LTR) and Right-To-Left (RTL), in single syntax",
+    "version": "0.1.0",
+    "description": "PostCSS plugin that polyfill W3C's CSS proposal to support logical properties and values",
     "keywords": [
         "postcss",
         "css",
         "postcss-plugin",
         "bidi",
         "rtl",
-        "ltr"
+        "ltr",
+        "horizontal",
+        "vertical",
+        "logical"
     ],
-    "author": "ErickSkrauch <erickskrauch@ely.by>",
-    "license": "MIT",
-    "repository": "erickskrauch/postcss-bidirection",
+    "homepage": "https://github.com/erickskrauch/postcss-logical-properties-polyfill",
     "bugs": {
-        "url": "https://github.com/erickskrauch/postcss-bidirection/issues"
+        "url": "https://github.com/erickskrauch/postcss-logical-properties-polyfill/issues"
     },
-    "homepage": "https://github.com/erickskrauch/postcss-bidirection",
-    "engines": {
-        "node": ">=12"
+    "license": "MIT",
+    "author": {
+        "name": "ErickSkrauch",
+        "email": "erickskrauch@ely.by",
+        "url": "https://github.com/erickskrauch"
+    },
+    "main": "dist/plugin.js",
+    "repository": "erickskrauch/postcss-logical-properties-polyfill",
+    "scripts": {
+        "build": "yarn clean && tsc -p tsconfig-build.json",
+        "test": "jest",
+        "tsc": "tsc --pretty",
+        "clean": "rimraf dist"
     },
     "devDependencies": {
         "@types/jest": "^26.0.22",
@@ -35,11 +46,7 @@
     "peerDependencies": {
         "postcss": "^8"
     },
-    "scripts": {
-        "build": "yarn clean && tsc -p tsconfig-build.json",
-        "test": "jest",
-        "tsc": "tsc --pretty",
-        "clean": "rimraf dist"
-    },
-    "main": "dist/plugin.js"
+    "engines": {
+        "node": ">=12"
+    }
 }
