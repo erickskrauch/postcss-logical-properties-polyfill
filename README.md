@@ -1,4 +1,4 @@
-# PostCSS Bidirection
+# PostCSS Logical Properties Polyfill
 
 Ultimate [PostCSS](https://github.com/postcss/postcss) plugin that polyfill [Bi-directional CSS proposal from W3C](https://drafts.csswg.org/css-logical/) to support direction-sensitive rules, a.k.a Left-To-Right (LTR) and Right-To-Left (RTL), as well as for vertical writing in all possible variations in all browsers.
 

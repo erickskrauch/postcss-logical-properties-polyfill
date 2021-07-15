@@ -120,9 +120,9 @@ const replaceBoxShorthand: Transformer = (decl, options) => {
 
     return [
         decl.clone({ prop: `${decl.prop}-${options.blockStart}`, value: parts[1] }),
-        decl.clone({ prop: `${decl.prop}-${options.inlineStart}`, value: parts[2] ?? parts[1] }),
+        decl.clone({ prop: `${decl.prop}-${options.inlineEnd}`, value: parts[2] ?? parts[1] }),
         decl.clone({ prop: `${decl.prop}-${options.blockEnd}`, value: parts[3] ?? parts[1] }),
-        decl.clone({ prop: `${decl.prop}-${options.inlineEnd}`, value: parts[4] ?? parts[2] ?? parts[1] }),
+        decl.clone({ prop: `${decl.prop}-${options.inlineStart}`, value: parts[4] ?? parts[2] ?? parts[1] }),
     ];
 };
 

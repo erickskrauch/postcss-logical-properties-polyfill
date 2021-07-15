@@ -408,72 +408,72 @@ html[dir="rtl"] .shorthandBlockTwo {
 
 html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalOne {
     margin-left: 1px;
-    margin-bottom: 1px;
-    margin-right: 1px;
     margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalOne {
     margin-left: 1px;
-    margin-top: 1px;
-    margin-right: 1px;
     margin-bottom: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
 }
 
 html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalOne {
     margin-right: 1px;
-    margin-top: 1px;
-    margin-left: 1px;
     margin-bottom: 1px;
+    margin-left: 1px;
+    margin-top: 1px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalOne {
     margin-right: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
     margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalOne {
     margin-left: 1px;
-    margin-top: 1px;
-    margin-right: 1px;
     margin-bottom: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalOne {
     margin-left: 1px;
-    margin-bottom: 1px;
-    margin-right: 1px;
     margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalOne {
     margin-right: 1px;
-    margin-top: 1px;
-    margin-left: 1px;
     margin-bottom: 1px;
+    margin-left: 1px;
+    margin-top: 1px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalOne {
     margin-right: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
     margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
 }
 
 html[dir="ltr"] .shorthandLogicalOne {
     margin-top: 1px;
-    margin-left: 1px;
-    margin-bottom: 1px;
     margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
 }
 
 html[dir="rtl"] .shorthandLogicalOne {
     margin-top: 1px;
-    margin-right: 1px;
-    margin-bottom: 1px;
     margin-left: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
 }
 
 .shorthandLogicalTwo {
@@ -482,72 +482,72 @@ html[dir="rtl"] .shorthandLogicalOne {
 
 html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalTwo {
     margin-left: 1px;
-    margin-bottom: 2px;
-    margin-right: 1px;
     margin-top: 2px;
+    margin-right: 1px;
+    margin-bottom: 2px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalTwo {
     margin-left: 1px;
-    margin-top: 2px;
-    margin-right: 1px;
     margin-bottom: 2px;
+    margin-right: 1px;
+    margin-top: 2px;
 }
 
 html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalTwo {
     margin-right: 1px;
-    margin-top: 2px;
-    margin-left: 1px;
     margin-bottom: 2px;
+    margin-left: 1px;
+    margin-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalTwo {
     margin-right: 1px;
-    margin-bottom: 2px;
-    margin-left: 1px;
     margin-top: 2px;
+    margin-left: 1px;
+    margin-bottom: 2px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalTwo {
     margin-left: 1px;
-    margin-top: 2px;
-    margin-right: 1px;
     margin-bottom: 2px;
+    margin-right: 1px;
+    margin-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalTwo {
     margin-left: 1px;
-    margin-bottom: 2px;
-    margin-right: 1px;
     margin-top: 2px;
+    margin-right: 1px;
+    margin-bottom: 2px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalTwo {
     margin-right: 1px;
-    margin-top: 2px;
-    margin-left: 1px;
     margin-bottom: 2px;
+    margin-left: 1px;
+    margin-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalTwo {
     margin-right: 1px;
-    margin-bottom: 2px;
-    margin-left: 1px;
     margin-top: 2px;
+    margin-left: 1px;
+    margin-bottom: 2px;
 }
 
 html[dir="ltr"] .shorthandLogicalTwo {
     margin-top: 1px;
-    margin-left: 2px;
-    margin-bottom: 1px;
     margin-right: 2px;
+    margin-bottom: 1px;
+    margin-left: 2px;
 }
 
 html[dir="rtl"] .shorthandLogicalTwo {
     margin-top: 1px;
-    margin-right: 2px;
-    margin-bottom: 1px;
     margin-left: 2px;
+    margin-bottom: 1px;
+    margin-right: 2px;
 }
 
 .shorthandLogicalThree {
@@ -556,72 +556,72 @@ html[dir="rtl"] .shorthandLogicalTwo {
 
 html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalThree {
     margin-left: 1px;
-    margin-bottom: 2px;
-    margin-right: 3px;
     margin-top: 2px;
+    margin-right: 3px;
+    margin-bottom: 2px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalThree {
     margin-left: 1px;
-    margin-top: 2px;
-    margin-right: 3px;
     margin-bottom: 2px;
+    margin-right: 3px;
+    margin-top: 2px;
 }
 
 html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalThree {
     margin-right: 1px;
-    margin-top: 2px;
-    margin-left: 3px;
     margin-bottom: 2px;
+    margin-left: 3px;
+    margin-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalThree {
     margin-right: 1px;
-    margin-bottom: 2px;
-    margin-left: 3px;
     margin-top: 2px;
+    margin-left: 3px;
+    margin-bottom: 2px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalThree {
     margin-left: 1px;
-    margin-top: 2px;
-    margin-right: 3px;
     margin-bottom: 2px;
+    margin-right: 3px;
+    margin-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalThree {
     margin-left: 1px;
-    margin-bottom: 2px;
-    margin-right: 3px;
     margin-top: 2px;
+    margin-right: 3px;
+    margin-bottom: 2px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalThree {
     margin-right: 1px;
-    margin-top: 2px;
-    margin-left: 3px;
     margin-bottom: 2px;
+    margin-left: 3px;
+    margin-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalThree {
     margin-right: 1px;
-    margin-bottom: 2px;
-    margin-left: 3px;
     margin-top: 2px;
+    margin-left: 3px;
+    margin-bottom: 2px;
 }
 
 html[dir="ltr"] .shorthandLogicalThree {
     margin-top: 1px;
-    margin-left: 2px;
-    margin-bottom: 3px;
     margin-right: 2px;
+    margin-bottom: 3px;
+    margin-left: 2px;
 }
 
 html[dir="rtl"] .shorthandLogicalThree {
     margin-top: 1px;
-    margin-right: 2px;
-    margin-bottom: 3px;
     margin-left: 2px;
+    margin-bottom: 3px;
+    margin-right: 2px;
 }
 
 .shorthandLogicalFour {
@@ -630,70 +630,70 @@ html[dir="rtl"] .shorthandLogicalThree {
 
 html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalFour {
     margin-left: 1px;
-    margin-bottom: 2px;
+    margin-top: 2px;
     margin-right: 3px;
-    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalFour {
     margin-left: 1px;
-    margin-top: 2px;
+    margin-bottom: 2px;
     margin-right: 3px;
-    margin-bottom: 4px;
+    margin-top: 4px;
 }
 
 html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalFour {
     margin-right: 1px;
-    margin-top: 2px;
+    margin-bottom: 2px;
     margin-left: 3px;
-    margin-bottom: 4px;
+    margin-top: 4px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalFour {
     margin-right: 1px;
-    margin-bottom: 2px;
+    margin-top: 2px;
     margin-left: 3px;
-    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalFour {
     margin-left: 1px;
-    margin-top: 2px;
+    margin-bottom: 2px;
     margin-right: 3px;
-    margin-bottom: 4px;
+    margin-top: 4px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalFour {
     margin-left: 1px;
-    margin-bottom: 2px;
+    margin-top: 2px;
     margin-right: 3px;
-    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    margin-right: 1px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalFour {
     margin-right: 1px;
     margin-top: 2px;
     margin-left: 3px;
     margin-bottom: 4px;
 }
 
-html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalFour {
-    margin-right: 1px;
-    margin-bottom: 2px;
-    margin-left: 3px;
-    margin-top: 4px;
-}
-
 html[dir="ltr"] .shorthandLogicalFour {
-    margin-top: 1px;
-    margin-left: 2px;
-    margin-bottom: 3px;
-    margin-right: 4px;
-}
-
-html[dir="rtl"] .shorthandLogicalFour {
     margin-top: 1px;
     margin-right: 2px;
     margin-bottom: 3px;
     margin-left: 4px;
+}
+
+html[dir="rtl"] .shorthandLogicalFour {
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-bottom: 3px;
+    margin-right: 4px;
 }

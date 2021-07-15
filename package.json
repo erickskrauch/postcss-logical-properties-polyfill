@@ -1,6 +1,6 @@
 {
     "name": "postcss-logical-properties-polyfill",
-    "version": "0.2.0",
+    "version": "0.1.1",
     "description": "PostCSS plugin that polyfill W3C's CSS proposal to support logical properties and values",
     "keywords": [
         "postcss",

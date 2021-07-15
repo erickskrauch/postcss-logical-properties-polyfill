@@ -408,72 +408,72 @@ html[dir="rtl"] .shorthandBlockTwo {
 
 html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalOne {
     padding-left: 1px;
-    padding-bottom: 1px;
-    padding-right: 1px;
     padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalOne {
     padding-left: 1px;
-    padding-top: 1px;
-    padding-right: 1px;
     padding-bottom: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
 }
 
 html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalOne {
     padding-right: 1px;
-    padding-top: 1px;
-    padding-left: 1px;
     padding-bottom: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalOne {
     padding-right: 1px;
-    padding-bottom: 1px;
-    padding-left: 1px;
     padding-top: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalOne {
     padding-left: 1px;
-    padding-top: 1px;
-    padding-right: 1px;
     padding-bottom: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalOne {
     padding-left: 1px;
-    padding-bottom: 1px;
-    padding-right: 1px;
     padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalOne {
     padding-right: 1px;
-    padding-top: 1px;
-    padding-left: 1px;
     padding-bottom: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalOne {
     padding-right: 1px;
-    padding-bottom: 1px;
-    padding-left: 1px;
     padding-top: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
 }
 
 html[dir="ltr"] .shorthandLogicalOne {
     padding-top: 1px;
-    padding-left: 1px;
-    padding-bottom: 1px;
     padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
 }
 
 html[dir="rtl"] .shorthandLogicalOne {
     padding-top: 1px;
-    padding-right: 1px;
-    padding-bottom: 1px;
     padding-left: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
 }
 
 .shorthandLogicalTwo {
@@ -482,72 +482,72 @@ html[dir="rtl"] .shorthandLogicalOne {
 
 html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalTwo {
     padding-left: 1px;
-    padding-bottom: 2px;
-    padding-right: 1px;
     padding-top: 2px;
+    padding-right: 1px;
+    padding-bottom: 2px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalTwo {
     padding-left: 1px;
-    padding-top: 2px;
-    padding-right: 1px;
     padding-bottom: 2px;
+    padding-right: 1px;
+    padding-top: 2px;
 }
 
 html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalTwo {
     padding-right: 1px;
-    padding-top: 2px;
-    padding-left: 1px;
     padding-bottom: 2px;
+    padding-left: 1px;
+    padding-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalTwo {
     padding-right: 1px;
-    padding-bottom: 2px;
-    padding-left: 1px;
     padding-top: 2px;
+    padding-left: 1px;
+    padding-bottom: 2px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalTwo {
     padding-left: 1px;
-    padding-top: 2px;
-    padding-right: 1px;
     padding-bottom: 2px;
+    padding-right: 1px;
+    padding-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalTwo {
     padding-left: 1px;
-    padding-bottom: 2px;
-    padding-right: 1px;
     padding-top: 2px;
+    padding-right: 1px;
+    padding-bottom: 2px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalTwo {
     padding-right: 1px;
-    padding-top: 2px;
-    padding-left: 1px;
     padding-bottom: 2px;
+    padding-left: 1px;
+    padding-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalTwo {
     padding-right: 1px;
-    padding-bottom: 2px;
-    padding-left: 1px;
     padding-top: 2px;
+    padding-left: 1px;
+    padding-bottom: 2px;
 }
 
 html[dir="ltr"] .shorthandLogicalTwo {
     padding-top: 1px;
-    padding-left: 2px;
-    padding-bottom: 1px;
     padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
 }
 
 html[dir="rtl"] .shorthandLogicalTwo {
     padding-top: 1px;
-    padding-right: 2px;
-    padding-bottom: 1px;
     padding-left: 2px;
+    padding-bottom: 1px;
+    padding-right: 2px;
 }
 
 .shorthandLogicalThree {
@@ -556,72 +556,72 @@ html[dir="rtl"] .shorthandLogicalTwo {
 
 html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalThree {
     padding-left: 1px;
-    padding-bottom: 2px;
-    padding-right: 3px;
     padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalThree {
     padding-left: 1px;
-    padding-top: 2px;
-    padding-right: 3px;
     padding-bottom: 2px;
+    padding-right: 3px;
+    padding-top: 2px;
 }
 
 html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalThree {
     padding-right: 1px;
-    padding-top: 2px;
-    padding-left: 3px;
     padding-bottom: 2px;
+    padding-left: 3px;
+    padding-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalThree {
     padding-right: 1px;
-    padding-bottom: 2px;
-    padding-left: 3px;
     padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 2px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalThree {
     padding-left: 1px;
-    padding-top: 2px;
-    padding-right: 3px;
     padding-bottom: 2px;
+    padding-right: 3px;
+    padding-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalThree {
     padding-left: 1px;
-    padding-bottom: 2px;
-    padding-right: 3px;
     padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalThree {
     padding-right: 1px;
-    padding-top: 2px;
-    padding-left: 3px;
     padding-bottom: 2px;
+    padding-left: 3px;
+    padding-top: 2px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalThree {
     padding-right: 1px;
-    padding-bottom: 2px;
-    padding-left: 3px;
     padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 2px;
 }
 
 html[dir="ltr"] .shorthandLogicalThree {
     padding-top: 1px;
-    padding-left: 2px;
-    padding-bottom: 3px;
     padding-right: 2px;
+    padding-bottom: 3px;
+    padding-left: 2px;
 }
 
 html[dir="rtl"] .shorthandLogicalThree {
     padding-top: 1px;
-    padding-right: 2px;
-    padding-bottom: 3px;
     padding-left: 2px;
+    padding-bottom: 3px;
+    padding-right: 2px;
 }
 
 .shorthandLogicalFour {
@@ -630,70 +630,70 @@ html[dir="rtl"] .shorthandLogicalThree {
 
 html[dir="ltr"] .writing-mode-sideways-lr .shorthandLogicalFour {
     padding-left: 1px;
-    padding-bottom: 2px;
+    padding-top: 2px;
     padding-right: 3px;
-    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-lr .shorthandLogicalFour {
     padding-left: 1px;
-    padding-top: 2px;
+    padding-bottom: 2px;
     padding-right: 3px;
-    padding-bottom: 4px;
+    padding-top: 4px;
 }
 
 html[dir="ltr"] .writing-mode-sideways-rl .shorthandLogicalFour {
     padding-right: 1px;
-    padding-top: 2px;
+    padding-bottom: 2px;
     padding-left: 3px;
-    padding-bottom: 4px;
+    padding-top: 4px;
 }
 
 html[dir="rtl"] .writing-mode-sideways-rl .shorthandLogicalFour {
     padding-right: 1px;
-    padding-bottom: 2px;
+    padding-top: 2px;
     padding-left: 3px;
-    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-lr .shorthandLogicalFour {
     padding-left: 1px;
-    padding-top: 2px;
+    padding-bottom: 2px;
     padding-right: 3px;
-    padding-bottom: 4px;
+    padding-top: 4px;
 }
 
 html[dir="rtl"] .writing-mode-vertical-lr .shorthandLogicalFour {
     padding-left: 1px;
-    padding-bottom: 2px;
+    padding-top: 2px;
     padding-right: 3px;
-    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 html[dir="ltr"] .writing-mode-vertical-rl .shorthandLogicalFour {
+    padding-right: 1px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-top: 4px;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalFour {
     padding-right: 1px;
     padding-top: 2px;
     padding-left: 3px;
     padding-bottom: 4px;
 }
 
-html[dir="rtl"] .writing-mode-vertical-rl .shorthandLogicalFour {
-    padding-right: 1px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    padding-top: 4px;
-}
-
 html[dir="ltr"] .shorthandLogicalFour {
-    padding-top: 1px;
-    padding-left: 2px;
-    padding-bottom: 3px;
-    padding-right: 4px;
-}
-
-html[dir="rtl"] .shorthandLogicalFour {
     padding-top: 1px;
     padding-right: 2px;
     padding-bottom: 3px;
     padding-left: 4px;
+}
+
+html[dir="rtl"] .shorthandLogicalFour {
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+    padding-right: 4px;
 }
