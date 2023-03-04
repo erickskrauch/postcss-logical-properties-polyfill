@@ -1,0 +1,2 @@
+tests/fixtures/** -linguist-detectable
+tests/output/** -linguist-detectable
