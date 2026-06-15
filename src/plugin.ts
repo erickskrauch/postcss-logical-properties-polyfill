@@ -61,7 +61,7 @@ const plugin: PluginCreator<PluginOptions> = ({
         root.walkAtRules('keyframes', (atRule) => {
             atRule.walkDecls((decl) => {
                 if (isSupportedProp(decl.prop)) {
-                    keyframesToProcess.set(atRule.params, atRule)
+                    keyframesToProcess.set(atRule.params, atRule);
                     return false;
                 }
             });
@@ -88,8 +88,9 @@ const plugin: PluginCreator<PluginOptions> = ({
             }
 
             const isLogicalProp = isSupportedProp(decl.prop);
-            const hasRefToAnimationWithLogicalProp = decl.prop.toLowerCase() === 'animation-name'
-                                                  && list.comma(decl.value).some((name) => keyframesToProcess.has(name));
+            const hasRefToAnimationWithLogicalProp =
+                decl.prop.toLowerCase() === 'animation-name' &&
+                list.comma(decl.value).some((name) => keyframesToProcess.has(name));
 
             if (!isLogicalProp && !hasRefToAnimationWithLogicalProp) {
                 return;
@@ -151,7 +152,9 @@ const plugin: PluginCreator<PluginOptions> = ({
                 decls.forEach((decl) => {
                     if (decl.prop.toLowerCase() === 'animation-name') {
                         const names = list.comma(decl.value);
-                        const newNames = names.map((name) => keyframesWritingModesNamesMap[name]?.[writingMode] ?? name);
+                        const newNames = names.map(
+                            (name) => keyframesWritingModesNamesMap[name]?.[writingMode] ?? name,
+                        );
                         newDecls.push(decl.clone({ value: newNames.join(', ') }));
 
                         return;

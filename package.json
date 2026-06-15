@@ -29,6 +29,8 @@
         "build": "yarn clean && tsc -p tsconfig-build.json",
         "test": "jest",
         "tsc": "tsc --pretty",
+        "lint": "prettier --write .",
+        "lint:check": "prettier --check .",
         "clean": "rimraf dist"
     },
     "devDependencies": {

@@ -30,7 +30,7 @@ jobs:
       - run: npm install
 
       - name: Prettier lint
-        run: npx prettier --check .
+        run: npm run lint:check
 
       - name: TypeScript check
         run: npm run tsc
