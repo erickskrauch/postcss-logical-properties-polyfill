@@ -1,0 +1,17 @@
+@keyframes test {
+    0% {
+        inset-inline-end: -30%;
+    }
+
+    100% {
+        inset-inline-end: 110%;
+    }
+}
+
+.slide {
+    animation-name: test;
+}
+
+.slideMixed {
+    animation-name: test, other;
+}

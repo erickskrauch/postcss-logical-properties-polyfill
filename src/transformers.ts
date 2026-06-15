@@ -35,7 +35,7 @@ type Transformer = (
 ) => Declaration | Array<Declaration> | undefined;
 
 function getDirectionParams(
-    decl: Declaration,
+    decl: Readonly<Declaration>,
     options: TransformOptions,
 ): ['block' | 'inline', TransformDirectionLiteral, TransformDirectionLiteral] {
     if (decl.prop.includes('block')) {

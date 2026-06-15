@@ -1,0 +1,197 @@
+@keyframes test {
+    0% {
+        inset-inline-end: -30%;
+    }
+
+    100% {
+        inset-inline-end: 110%;
+    }
+}
+
+@keyframes test--writing-mode-sideways-lr--ltr {
+    0% {
+        top: -30%;
+    }
+
+    100% {
+        top: 110%;
+    }
+}
+
+@keyframes test--writing-mode-sideways-lr--rtl {
+    0% {
+        bottom: -30%;
+    }
+
+    100% {
+        bottom: 110%;
+    }
+}
+
+@keyframes test--writing-mode-sideways-rl--ltr {
+    0% {
+        bottom: -30%;
+    }
+
+    100% {
+        bottom: 110%;
+    }
+}
+
+@keyframes test--writing-mode-sideways-rl--rtl {
+    0% {
+        top: -30%;
+    }
+
+    100% {
+        top: 110%;
+    }
+}
+
+@keyframes test--writing-mode-vertical-lr--ltr {
+    0% {
+        bottom: -30%;
+    }
+
+    100% {
+        bottom: 110%;
+    }
+}
+
+@keyframes test--writing-mode-vertical-lr--rtl {
+    0% {
+        top: -30%;
+    }
+
+    100% {
+        top: 110%;
+    }
+}
+
+@keyframes test--writing-mode-vertical-rl--ltr {
+    0% {
+        bottom: -30%;
+    }
+
+    100% {
+        bottom: 110%;
+    }
+}
+
+@keyframes test--writing-mode-vertical-rl--rtl {
+    0% {
+        top: -30%;
+    }
+
+    100% {
+        top: 110%;
+    }
+}
+
+@keyframes test--ltr {
+    0% {
+        right: -30%;
+    }
+
+    100% {
+        right: 110%;
+    }
+}
+
+@keyframes test--rtl {
+    0% {
+        left: -30%;
+    }
+
+    100% {
+        left: 110%;
+    }
+}
+
+.slide {
+    animation-name: test;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .slide {
+    animation-name: test--writing-mode-sideways-lr--ltr;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .slide {
+    animation-name: test--writing-mode-sideways-lr--ltr;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .slide {
+    animation-name: test--writing-mode-sideways-rl--ltr;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .slide {
+    animation-name: test--writing-mode-sideways-rl--ltr;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .slide {
+    animation-name: test--writing-mode-vertical-lr--ltr;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .slide {
+    animation-name: test--writing-mode-vertical-lr--ltr;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .slide {
+    animation-name: test--writing-mode-vertical-rl--ltr;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .slide {
+    animation-name: test--writing-mode-vertical-rl--ltr;
+}
+
+html[dir="ltr"] .slide {
+    animation-name: test--ltr;
+}
+
+html[dir="rtl"] .slide {
+    animation-name: test--ltr;
+}
+
+.slideMixed {
+    animation-name: test, other;
+}
+
+html[dir="ltr"] .writing-mode-sideways-lr .slideMixed {
+    animation-name: test--writing-mode-sideways-lr--ltr, other;
+}
+
+html[dir="rtl"] .writing-mode-sideways-lr .slideMixed {
+    animation-name: test--writing-mode-sideways-lr--ltr, other;
+}
+
+html[dir="ltr"] .writing-mode-sideways-rl .slideMixed {
+    animation-name: test--writing-mode-sideways-rl--ltr, other;
+}
+
+html[dir="rtl"] .writing-mode-sideways-rl .slideMixed {
+    animation-name: test--writing-mode-sideways-rl--ltr, other;
+}
+
+html[dir="ltr"] .writing-mode-vertical-lr .slideMixed {
+    animation-name: test--writing-mode-vertical-lr--ltr, other;
+}
+
+html[dir="rtl"] .writing-mode-vertical-lr .slideMixed {
+    animation-name: test--writing-mode-vertical-lr--ltr, other;
+}
+
+html[dir="ltr"] .writing-mode-vertical-rl .slideMixed {
+    animation-name: test--writing-mode-vertical-rl--ltr, other;
+}
+
+html[dir="rtl"] .writing-mode-vertical-rl .slideMixed {
+    animation-name: test--writing-mode-vertical-rl--ltr, other;
+}
+
+html[dir="ltr"] .slideMixed {
+    animation-name: test--ltr, other;
+}
+
+html[dir="rtl"] .slideMixed {
+    animation-name: test--ltr, other;
+}

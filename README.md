@@ -1,8 +1,8 @@
 # PostCSS Logical Properties Polyfill
 
-Ultimate [PostCSS](https://github.com/postcss/postcss) plugin that polyfill [Bi-directional CSS proposal from W3C](https://drafts.csswg.org/css-logical/) to support direction-sensitive rules, a.k.a Left-To-Right (LTR) and Right-To-Left (RTL), as well as for vertical writing in all possible variations in all browsers.
+Ultimate [PostCSS](https://github.com/postcss/postcss) plugin that polyfills the [Bi-directional CSS proposal from W3C](https://drafts.csswg.org/css-logical/) to support direction-sensitive rules, a.k.a Left-To-Right (LTR) and Right-To-Left (RTL), as well as vertical writing modes in all possible variations across all browsers.
 
-It also knows how to polyfill a `transition` property if the specified props contains logical properties. See the [transformers.ts](src/transformers.ts) for the full list of supported properties.
+It also knows how to polyfill `transition` and `@keyframes` if they reference logical properties. See [transformers.ts](src/transformers.ts) for the full list of supported properties.
 
 ## Install
 
@@ -49,5 +49,17 @@ const pluginOptions = {
 
         return `${prefix} ${selector}`;
     },
+    buildKeyframeName(name, writingMode, direction) {
+        let suffix = '';
+        if (writingMode !== 'horizontal-tb') {
+            suffix += `--writing-mode-${writingMode}`;
+        }
+
+        suffix += `--${direction}`;
+
+        return `${name}${suffix}`;
+    },
 }
 ```
+
+> **Note:** `animation-name` is rewritten only for keyframes defined in the same PostCSS pass. If your `@keyframes` and `animation-name` live in separate files, run [`postcss-import`](https://github.com/postcss/postcss-import) before this plugin to inline all imports first.
