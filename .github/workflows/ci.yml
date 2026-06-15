@@ -21,21 +21,21 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'yarn'
+          cache: 'npm'
 
-      - run: yarn install
+      - run: npm ci
 
       - name: Prettier lint
-        run: yarn prettier --check .
+        run: npx prettier --check .
 
       - name: TypeScript check
-        run: yarn tsc
+        run: npm run tsc
 
       - name: Jest tests
-        run: yarn test
+        run: npm test
 
       - name: Build
-        run: yarn build
+        run: npm run build
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
